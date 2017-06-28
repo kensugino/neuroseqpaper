@@ -2,7 +2,7 @@
 - Fig1. Dataset intro, QC
 - Fig2. Dataset homogeneity NNLS
 - Fig3. "traditional" metrics (MI,CV,ANOVA) vs. DI/SC
-- Fig4. DI/SC analysis, enriched families
+- Fig4. DI/SC analysis, enriched families, Homeobox
 - Fig5. TF Code, Tree
 - Fig6. Long Gene
 
