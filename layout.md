@@ -5,4 +5,5 @@ figures/Fig1v13/Fig1v13.png
 Results-metrics.tex
 Results-long_gene.tex
 Discussion.tex
+Materials and Methods.tex
 Supp-metrics.tex
