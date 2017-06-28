@@ -1,9 +1,31 @@
 \subsection{Metrics to Quantify Differential Expression}
 
-\begin{figure}
-\includegraphics[width=0.87\linewidth]{Fig-metrics-v2}
-\caption{Metrics to Quantify Expression Diversity.
-\textbf{(A)} Definition of EP,SC and DI.
-\textbf{(B)} Example expression patterns. For both binary and graded, expression values for 30 samples (10 groups with 3 replicates) with noise level of 0.1 are generated. Noises are sampled from Gaussian distribution. For binary patterns, EP of 0.1,0.5,0.9, and SNR of 20 (high SNR) and 10 (low SNR) are generated. For graded patterns, successive groups are separated by 0.1 (low SNR), 0.4 (medium SNR) and 0.7 (high SNR).
-\textbf{(C)} Metrics corresponding to example patterns shown in (B). MI:mutual information, F:ANOVA F-value, CV:coefficient of variation. Prefix s (for sDI and sMI) indicates that sample label instead of group label is used (i.e. treated as unlabeled, no replicate). Values are average of 100 trials and normalized by the maximum within each metric. Error bars represent standard deviations. 
-}
+To quantify gene expression patterns across cell types, we defined three indices for each gene (Fig~\ref{fig:fig-metrics}A). The first, Expression Prevalence (EP), indicates how broadly individual genes are expressed. EP is the fraction of sample or cell types expressing the gene above a threshold; it ranges from 0 to 1. Housekeeping genes have EP=1 and genes specifically expressed in few cell types have EP close to zero.
+
+The second, Differentiation Index (DI) is the fraction of the number of pairs of samples or cell types distinguished by a gene's expression level to all number of pairs excluding self-pairs. Any criteria to distinguish a pair of samples or cell types can be employed. Here, we required log fold change to be bigger than a threshold for a pair of samples. For a pair of cell types, we simply required log fold change of all sample pairs between the two cell types be bigger than a threshold. However, other statistical tests such as t-test can be used as well. DI ranges from 0 to 1 where n is the number of samples or cell types. 
+
+Finally, Signal Contrast (SC), indicates how robustly pairs are distinguished. It is the ratio of the average effect size for distinguished pairs and for undistinguished pairs. 
+
+To illustrate the properties of DI,SC and other more traditional metrics such as ANOVA, coefficient of variation (CV) and mutual information (MI), we calculated these metrics against binary expression patterns with various EP and SNR (Fig~\ref{fig:fig-metrics}B left) and graded expression patterns with different gradient (Fig~\ref{fig:fig-metrics}B right). DI, SC are calculated both for samples (sDI,sSC in Fig~\ref{fig:fig-metrics}C) and for cell types (DI,SC in Fig~\ref{fig:fig-metrics}C). ANOVA F-values are calculated using cell type groupings. MI is calculated using contingency table method by quantizing expression levels and using either sample labels (sMI) or cell type labels (MI). 
+% * <schulmanna@janelia.hhmi.org> 2017-06-26T05:54:59.976Z:
+% 
+% > more traditional 
+% better: existing
+% 
+% ^.
+
+The results (Fig~\ref{fig:fig-metrics}C) indicate that differentiation indices (DI, sDI) are highly correlated with mutual information (MI, sMI). Mutual information between expression levels and cell types quantitates how much information on cell types is contained in the expression pattern. Therefore, intuitively, the number of distinguishable pairs of cell types (DI) should be highly related to MI. This relationship is explored in more detail in the supplement (Supplement to Figure~\ref{fig:fig-metrics}) and when 1) binary expression level (i.e. only ON/OFF is assessed),2) contribution to MI from expression noise is ignored, and 3) a same discretization scheme is used for both DI and MI, then DI is an order-preserved transformation of MI. In general, DI is highly correlated with MI and can be regarded as an approximation to MI. DI is also highly related to Simpson's index of diversity used in ecology [REF:1949 Nature, Measurement of Diversity]. Thus, in addition to quantifying the amount of differential expression, DI provides an alternative way to calculate the amount of information on cell types contained in the expression pattern. As can be seen from the error bars in Fig~\ref{fig:fig-metrics}C, DI is less susceptible to noise compared to MI. 
+
+ANOVA is the traditional statistics of choice when quantitating differential expression of multiple cell types. Fig~\ref{fig:fig-metrics}C indicates that ANOVA F-values are affected both by information content and signal-to-noise ratio. Therefore, when these aspects need to be separated, ANOVA is not an appropriate metric. For example, ANOVA F-value for Binary high SNR/EP=0.1 is similar to Binary low SNR/EP=0.5 (Fig~\ref{fig:fig-metrics}C), and they are not distinguishable. 
+
+CV is often used to extract highly varying genes when no cell type labeling is available, such as in the case of single cell experiments to classify samples. From Fig~\ref{fig:fig-metrics}C, we can see that CV is insensitive to information content nor SNR, but depends more on EP. Since it is desirable to have high information content as well as high signal-to-noise ratio for classification features, high DI/high SC genes are more appropriate for this purpose than high CV genes. 
+% * <schulmanna@janelia.hhmi.org> 2017-06-26T06:10:28.878Z:
+% 
+% > EP
+% are we gonna introduce this metric?
+% 
+% ^.
+
+Finally, Fig~\ref{fig:fig-metrics}C indicates that signal contrasts (SC,sSC) capture SNR faithfully for binary cases and approximately for graded cases. This is enabled by separation of pairs in two groups using DM (Fig~\ref{fig:fig-metrics}A), which is also used to calculate DI. High SC genes robustly distinguish cell populations, that is, they are suitable for "marker genes". Since sSC has larger dynamic range compared to SC for graded case and less variability for binary cases, and sDI and DI are essentially the same, in the following analyses, we use sDI and sSC instead of DI and SC.
+
+In summary, DI and SC enable to independently measure the amount of differential expression, which can also be regarded as information content of cell types in the expression pattern, and the robustness of differential expression.
