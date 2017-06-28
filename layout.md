@@ -9,4 +9,5 @@ Results-long_gene.tex
 Discussion.tex
 Materials and Methods.tex
 Acknowledgements.tex
+Competing Interests.tex
 Supp-metrics.tex
