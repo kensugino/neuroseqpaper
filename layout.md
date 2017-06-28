@@ -8,4 +8,5 @@ Results-metrics.tex
 Results-long_gene.tex
 Discussion.tex
 Materials and Methods.tex
+Acknowledgements.tex
 Supp-metrics.tex
