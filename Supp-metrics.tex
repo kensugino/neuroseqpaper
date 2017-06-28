@@ -1,0 +1,47 @@
+
+\subsection{Supplement to Figure \ref{fig:fig-metrics}}
+\label{subsec:MI-and-DI}
+Here we explore more detailed relationship between mutual information and differentiation index. To calculate mutual information between expression levels and cell types, we discretize expression levels into $N_{e}$ levels. Let $N_{s}$ be nmber of samples. Let $n_{ij}$ be counts in the contingency table where $i=1,...,N_{e}$ and $j=1,...,N_{s}$. Then the joint probability distribution and the marginal probability distributions can be written as:
+\begin{align}
+p(i,j) &= \frac{n_{ij}}{N_{s}} \\
+p(i) &= \frac{\sum_{j}{n_{ij}}}{N_{s}} = \frac{n_i}{N_s} \\
+p(j) &= \frac{\sum_{i}{n_{ij}}}{N_{s}} = \frac{n_j}{N_s}\\
+\end{align}
+Where $n_i = \sum_{j}{n_{ij}}$ and $n_j=\sum_{i}n_{ij}$. $n_j$ is number of replicates in cell type $j$. The mutual information between expression level (E) and samples (S) is:
+\begin{align}
+I(E;S) &= \sum_{i,j}{p(i,j)\log\frac{p(i,j)}{p(i)p(j)}} \\
+       &= \sum_{i,j}{p(i,j)\log\frac{p(i,j)}{p(j)}}-\sum_{i,j}p(i,j)\log{p(i)}  \\
+       &= \sum_{i,j}p(j)p(i|j)\log{p(i|j)}-\sum_{i,j}p(i,j)\log{p(i)}  \\
+       &= \sum_{j}p(j)\sum_{i}p(i|j)\log{p(i|j)}-\sum_{i}\log{p(i)}\sum_{j}p(i,j)  \\
+       &= -\sum_{j}p(j)H(E|S=j)-\sum_{i}p(i)\log{p(i)}  \\
+       &= -H(E|S)+H(E)
+\end{align}
+$H(E|S=j)$ is the entropy of expression levels in cell type j and $H(E|S)$ is the average of these across all cell types. When there is no replicates H(E|S) is zero. When there are replicates, $H(E|S=j)$ represents how noisy the expression is. This may depends on expression level, and $H(E|S)$, the average of $H(E|S=j)$ may depends on expression prevalence (EP), but in any case, the first term $-H(E|S)$ represents reduction of the mutual information by noise. 
+
+The second term $H(E)$ is the entropy of marginal distribution $p(i)$ and represents the main information content of cell types encoded in expression levels. This can be rewritten using counts in the contingency table:
+\begin{align}
+H(E) &= -\sum_{i}p(i)\log p(i) \\
+     &= -\sum_{i}\frac{n_i}{N_s} \log \frac{n_i}{N_s} \\
+     &= -\sum_{i}\frac{n_i}{N_s} \log n_i + \sum_{i}\frac{n_i}{N_s}\log N_s \\
+     &= - \frac{1}{N_s}\sum_{i}n_i\log n_i + \log N_s
+\end{align}
+Thus, it takes maximum when all $n_i$'s are 0 or 1, which corresponds to the case where one expression level corresponds to one cell type, making all cell types distinguishable by the expression levels. This is when the discretization levels are larger than number of samples. When the number of discretization levels ($N_e$) is smaller than the number of samples ($N_s$), H(E) takes the maximum value of $\log N_e$ when all the samples are distributed equally to each bin.
+
+To explore the relationship between $H(E)$ and DI, the $\log n_i$ in the first term is replaced (approximated) by $(n_i-1)$ (first two terms in the Taylor expansion of $\log n_i$ around $n_i=1$.):
+\begin{align}
+H(E) &\sim -\frac{1}{N_s}\sum_{i}n_i (n_i-1) + \log N_s \\
+	 &= -\frac{2}{N_s}\sum_{i}n_i (n_i-1)/2 + \log N_s \\
+     &=  \frac{2}{N_s}\left\{N_s(N_s-1)/2 - \sum_{i}n_i (n_i-1)/2\right\} - (N_s-1) + \log N_s \\
+     &= (N_s-1) sDI - (N_s-1) + \log N_s 
+\end{align}
+Since $n_i$ is the number of samples in one expression level, $n_i(n_i-1)/2$ is the number of indistinguishable pairs in that expression level when there is no replicate, the term within the curly bracket is then the number of distinguishable pairs, leading to eq.(18). 
+
+More formally, since both $h(p) = \sum{n_i\log n_i}$ and $d(p) = \sum n_i(n_i-1) = \sum n_i^2 - N_s$ are Schur-convex functions\footnote{A Schur-convex function is a function $f:\realnumbers^k \rightarrow \realnumbers$ which satisfies $f(x) \geq f(y)$ for all $x,y$ where $x$ majorizes $y$. For $x=(x_1,x_2,...,x_k) \in \realnumbers^k where (x_1 \geq x_2 \geq ... \geq x_k) $ and $y=(y_1,y_2,...,y_k) \in \realnumbers^k where (y_1 \geq y_2 \geq ... \geq y_k)$. $x$ majorizes $y$ when $\sum_{i=1}^{k} x_i = \sum_{i=1}^{k} y_i and \sum_{i=1}^{j} x_i \geq \sum_{i=1}^{j} y_i for all j=1,...,k$. When $x$ majorizes $y$, it follows $x_i \geq y_i$ for all $i$, so it is easy to see $h(x) \geq h(y)$ and $d(x) \geq d(y)$.} on partitions of $N_s$,  $p=(n_1,n_2,...,n_k)$, when partition $p_1$ majorizes $p_2$ then, $h(p_1)\geq h(p_2)$ and $d(p_1)\geq d(p_2)$. When partition length is 2, that is when expression levels are discretized into only 2 levels, corresponding to ON/OFF, then, all of the partitions can be ordered by majorization relationship, therefore, $h(p)$ and $d(p)$ are order-preserved transformation of each other (Supp.Fig2 top row). When partition length is greater than 2, this relationship is not true. However, they are still highly correlated to each other (Supp.Fig2). 
+
+When DI is calculated from global discretization (as in the above case), the maximum number of pairs distinguishable happens when all the samples are equally distributed to each bin and the number of distinguishable pairs is $\left( \frac{N_s}{N_e}\right)^2N_e(N_e-1)/2$. Therefore,
+\begin{align}
+max(DI) &= \left( \frac{N_s}{N_e}\right)^2 \frac{N_e(N_e-1)/2}{N_s(N_s-1)/2}\\
+		&= \left( 1 - \frac{1}{N_e} \right) / \left( 1 - \frac{1}{N_s} \right) \\
+        &\sim 1 - \frac{1}{N_e} \quad(when\quad N_s \gg 1)
+\end{align}
+As stated above, this is also when the entropy $H(E)$ takes the maximum value of $\log_{2} N_e$ in the unit of bits. (See Supp.Fig2)
