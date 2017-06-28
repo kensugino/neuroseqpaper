@@ -5,6 +5,7 @@ Introduction.tex
 Results-dataset.tex
 figures/Fig1v13/Fig1v13.png
 Results-NNLS.tex
+figures/Fig-NNLS/Fig-NNLS.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v2.png
 Results-DISC.tex
