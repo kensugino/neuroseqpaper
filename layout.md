@@ -10,5 +10,4 @@ Discussion.tex
 Materials and Methods.tex
 Acknowledgements.tex
 Competing Interests.tex
-References.tex
 Supp-metrics.tex
