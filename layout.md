@@ -23,4 +23,5 @@ Supp-NNLS.tex
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
+Supp-tree.tex
 Supp-LongGene.tex
