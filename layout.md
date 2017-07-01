@@ -28,6 +28,7 @@ figures/supp-NNLS-randomforest/supp-NNLS-randomforest.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
+figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
