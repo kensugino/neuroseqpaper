@@ -30,3 +30,4 @@ figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
 Supp-tree.tex
 Supp-LongGene.tex
+figures/supp-longgenes/supp-longgenes.png
