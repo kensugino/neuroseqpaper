@@ -21,4 +21,5 @@ Competing Interests.tex
 Supp-dataset.tex
 Supp-NNLS.tex
 Supp-metrics.tex
+figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-LongGene.tex
