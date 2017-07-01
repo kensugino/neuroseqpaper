@@ -9,6 +9,7 @@ figures/Fig-NNLS/Fig-NNLS.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v2.png
 Results-DISC.tex
+figures/Fig-DISC/Fig-DISC.png
 Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2.png
 Results-long_gene.tex
