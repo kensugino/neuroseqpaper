@@ -19,6 +19,7 @@ Materials and Methods.tex
 Acknowledgements.tex
 Competing Interests.tex
 Supp-dataset.tex
+figures/Fig1v13bSupp/Fig1v13bSupp.png
 Supp-NNLS.tex
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
