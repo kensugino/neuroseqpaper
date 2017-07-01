@@ -21,6 +21,7 @@ Competing Interests.tex
 Supp-dataset.tex
 figures/Fig1v13bSupp/Fig1v13bSupp.png
 Supp-NNLS.tex
+figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
