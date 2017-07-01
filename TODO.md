@@ -8,6 +8,21 @@
 
 
 ## TODO
+- [ ] sample and group labels?
+- [ ] Fig1 color codes
+- [ ] Fig1supp color codes<=>sample names
+- [ ] Fig2 2sigma or 3sigma?
+- [ ] Fig2supp (Anton) Heatmap/Contrast for comparisons
+- [ ] Fig3 remove sDI/sSC, EP
+- [ ] Fig3 add Fano factor?
+- [ ] Fig3 add actual case (current Fig4A)
+- [ ] Fig4 ATAC hbox OFF noise
+- [ ] Fig5supp tree w/o anatomy constraints
+- [ ] Fig5supp tree with anatomy constraints in division
+- [ ] Fig5supp pan-neuronal
+- [ ] Fig5supp other examples of "intersection method" (e.g. Pvalb)
+- [ ] Fig6 peak cnts vs. length from Erin dataset?
+- [ ] Fig6 peak pattern examples (bigwig)
 
 
 
