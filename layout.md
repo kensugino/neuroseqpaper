@@ -24,6 +24,7 @@ Supp-NNLS.tex
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons.png
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
+figures/supp-NNLS-randomforest/supp-NNLS-randomforest.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
