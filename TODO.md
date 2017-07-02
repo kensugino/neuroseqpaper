@@ -25,7 +25,8 @@
 - [ ] Fig5supp other examples of "intersection method" (e.g. Pvalb)
 - [ ] Fig6 peak cnts vs. length from Erin dataset?
 - [ ] Fig6 peak pattern examples (bigwig)
-- [ ] Fig6A x axis indicate length
+- [x] Fig6A x axis indicate length
+- [x] Fig6B-D adjust x axis range
 - [ ] add Fig7 cartoon (blush up?)
 - [ ] (Analysis) calculate family-wise reproducible gene %
 - [ ] (Analysis) separability of long-gene set vs. whole genes vs. non-long-genes
