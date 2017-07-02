@@ -16,14 +16,29 @@
 - [ ] Fig3 remove sDI/sSC, EP
 - [ ] Fig3 add Fano factor?
 - [ ] Fig3 add actual case (current Fig4A)
-- [ ] Fig4 ATAC hbox OFF noise
+- [ ] Fig4 ATAC hbox OFF noise (Sacha/Erin)
+- [ ] Fig4supp add HUGO TF subfamily bDI bargraph
 - [x] Fig5supp tree w/o anatomy constraints
 - [x] Fig5supp tree with anatomy constraints in division
 - [ ] Fig5supp pan-neuronal
 - [ ] Fig5supp other examples of "intersection method" (e.g. Pvalb)
 - [ ] Fig6 peak cnts vs. length from Erin dataset?
 - [ ] Fig6 peak pattern examples (bigwig)
+- [ ] Fig6A x axis indicate length
 
+## Writing
+- [ ] Abstract (remove DI/SC replace with general terms)
+- [ ] Intro (Ken)
+- [ ] Dataset
+- [ ] NNLS
+- [ ] Metrics (Ken)
+- [ ] DISC analysis (Ken)
+- [ ] Tree 
+- [ ] Long Gene
+- [ ] Discussion
+
+## Misc
+- [ ] Fix Acknowledgements
 
 
 ## elife submission guide
