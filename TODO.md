@@ -17,8 +17,8 @@
 - [ ] Fig3 add Fano factor?
 - [ ] Fig3 add actual case (current Fig4A)
 - [ ] Fig4 ATAC hbox OFF noise
-- [ ] Fig5supp tree w/o anatomy constraints
-- [ ] Fig5supp tree with anatomy constraints in division
+- [x] Fig5supp tree w/o anatomy constraints
+- [x] Fig5supp tree with anatomy constraints in division
 - [ ] Fig5supp pan-neuronal
 - [ ] Fig5supp other examples of "intersection method" (e.g. Pvalb)
 - [ ] Fig6 peak cnts vs. length from Erin dataset?
