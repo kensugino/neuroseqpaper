@@ -19,7 +19,7 @@ Materials and Methods.tex
 Acknowledgements.tex
 Competing Interests.tex
 Supp-dataset.tex
-figures/Fig1v13bSupp/Fig1v13bSupp.png
+figures/Fig1v13bSupp/supp-dataset.png
 Supp-NNLS.tex
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
