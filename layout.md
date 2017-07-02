@@ -7,7 +7,7 @@ figures/Fig1v13/Fig-dataset.png
 Results-NNLS.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
 Results-metrics.tex
-figures/Fig-metrics-v2/Fig-metrics-v2.png
+figures/Fig-metrics-v2/Fig-metrics-v3.png
 Results-DISC.tex
 figures/Fig-DISC/Fig-DISC.png
 Results-code.tex
