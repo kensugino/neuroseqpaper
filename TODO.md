@@ -27,14 +27,16 @@
 - [ ] Fig6A x axis indicate length
 
 ## Writing
+- [ ] Figure Legends (Ken)
+- [ ] Methods (Ken)
 - [ ] Abstract (remove DI/SC replace with general terms)
 - [ ] Intro (Ken)
 - [ ] Dataset
 - [ ] NNLS
 - [ ] Metrics (Ken)
 - [ ] DISC analysis (Ken)
-- [ ] Tree 
-- [ ] Long Gene
+- [ ] Tree (Sacha)
+- [ ] Long Gene 
 - [ ] Discussion
 
 ## Misc
