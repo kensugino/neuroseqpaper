@@ -30,5 +30,6 @@ figures/Fig-DI-vs-MI/Fig-DI-vs-MI.png
 Supp-DISC.tex
 figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
+figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
