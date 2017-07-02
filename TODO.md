@@ -11,7 +11,7 @@
 - [x] sample and group labels?
 - [ ] Fig1 color codes
 - [ ] Fig1supp color codes<=>sample names
-- [ ] Fig2 2sigma or 3sigma? ==> 3sigma ==> fix fig
+- [x] Fig2 2sigma or 3sigma? ==> 3sigma ==> fix fig
 - [ ] Fig2supp (Anton) Heatmap/Contrast for comparisons
 - [ ] Fig3 remove sDI/sSC, EP
 - [ ] Fig3 add Fano factor?
