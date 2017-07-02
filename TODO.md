@@ -13,9 +13,10 @@
 - [x] Fig1supp color codes<=>sample names
 - [x] Fig2 2sigma or 3sigma? ==> 3sigma ==> fix fig
 - [ ] Fig2supp (Anton) Heatmap/Contrast for comparisons
-- [ ] Fig3 remove sDI/sSC, EP
-- [ ] Fig3 add Fano factor?
-- [ ] Fig3 add actual case (current Fig4A)
+- [x] Fig3 remove sDI/sSC, EP
+- [x] Fig3 add Fano factor (VMR)
+- [ ] Fig3supp only two cases #level=2,5 (N=300)
+- [ ] Fig3 add actual case? (move from current Fig4A?)
 - [ ] Fig4 ATAC hbox OFF noise (Sacha/Erin)
 - [ ] Fig4supp add HUGO TF subfamily bDI bargraph
 - [x] Fig5supp tree w/o anatomy constraints
@@ -26,6 +27,10 @@
 - [ ] Fig6 peak pattern examples (bigwig)
 - [ ] Fig6A x axis indicate length
 - [ ] add Fig7 cartoon (blush up?)
+- [ ] (Analysis) calculate family-wise reproducible gene %
+- [ ] (Analysis) separability of long-gene set vs. whole genes vs. non-long-genes
+- [ ] (Analysis) other species gene length distribution (average length?)
+
 
 ## Writing
 - [ ] Figure Legends (Ken)
