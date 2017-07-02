@@ -15,7 +15,7 @@
 - [ ] Fig2supp (Anton) Heatmap/Contrast for comparisons
 - [x] Fig3 remove sDI/sSC, EP
 - [x] Fig3 add Fano factor (VMR)
-- [ ] Fig3supp only two cases #level=2,5 (N=300)
+- [x] Fig3supp only two cases #level=2,5 (N=300)
 - [ ] Fig3 add actual case? (move from current Fig4A?)
 - [ ] Fig4 ATAC hbox OFF noise (Sacha/Erin)
 - [ ] Fig4supp add HUGO TF subfamily bDI bargraph
