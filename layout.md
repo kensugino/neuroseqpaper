@@ -22,7 +22,7 @@ Supp-dataset.tex
 figures/Fig1v13bSupp/Fig1v13bSupp.png
 Supp-NNLS.tex
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
-figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons.png
+figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest.png
 Supp-metrics.tex
