@@ -5,7 +5,7 @@
 - Fig4. DI/SC analysis, enriched families, Homeobox
 - Fig5. TF Code, Tree
 - Fig6. Long Gene
-
+- Fig7. Cartoon
 
 ## TODO
 - [x] sample and group labels?
@@ -25,6 +25,7 @@
 - [ ] Fig6 peak cnts vs. length from Erin dataset?
 - [ ] Fig6 peak pattern examples (bigwig)
 - [ ] Fig6A x axis indicate length
+- [ ] add Fig7 cartoon (blush up?)
 
 ## Writing
 - [ ] Figure Legends (Ken)
