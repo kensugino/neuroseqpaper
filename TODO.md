@@ -27,10 +27,10 @@
 - [ ] Fig6 peak pattern examples (bigwig)
 - [x] Fig6A x axis indicate length
 - [x] Fig6B-D adjust x axis range
-- [ ] add Fig7 cartoon (blush up?)
-- [ ] (Analysis) calculate family-wise reproducible gene %
-- [ ] (Analysis) separability of long-gene set vs. whole genes vs. non-long-genes
-- [ ] (Analysis) other species gene length distribution (average length?)
+- [x] add Fig7 cartoon (blush up?)
+- [ ] [Analysis] calculate family-wise reproducible gene %
+- [ ] [Analysis] separability of long-gene set vs. whole genes vs. non-long-genes
+- [ ] [Analysis] other species gene length distribution (average length?)
 
 
 ## Writing
