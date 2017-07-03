@@ -18,7 +18,7 @@
 - [x] Fig3supp only two cases #level=2,5 (N=300)
 - [ ] Fig3 add actual case? (move from current Fig4A?)
 - [ ] Fig4 ATAC hbox OFF noise (Sacha/Erin)
-- [ ] Fig4supp add HUGO TF subfamily bDI bargraph
+- [x] Fig4supp add HUGO TF subfamily bDI bargraph
 - [x] Fig5supp tree w/o anatomy constraints
 - [x] Fig5supp tree with anatomy constraints in division
 - [ ] Fig5supp pan-neuronal
@@ -36,8 +36,8 @@
 ## Writing
 - [ ] Figure Legends (Ken)
 - [ ] Methods (Ken)
-- [ ] Abstract (remove DI/SC replace with general terms)
-- [ ] Intro (Ken)
+- [x] Abstract (Sacha, remove DI/SC replace with general terms)
+- [x] Intro (Sacha)
 - [ ] Dataset
 - [ ] NNLS
 - [ ] Metrics (Ken)
