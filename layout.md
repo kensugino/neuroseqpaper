@@ -14,6 +14,7 @@ Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 Results-long_gene.tex
 figures/Fig-longgenes/Fig-longgenes-v2.png
+figures/Fig-modelai/Fig-modelai.png
 Discussion.tex
 Materials and Methods.tex
 Acknowledgements.tex
