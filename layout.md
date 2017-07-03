@@ -27,10 +27,10 @@ figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/supp-metrics-v3.png
-figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Supp-DISC.tex
 figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
+figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
