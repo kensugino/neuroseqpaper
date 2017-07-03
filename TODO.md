@@ -12,27 +12,30 @@
 - [x] Fig1 color codes
 - [x] Fig1supp color codes<=>sample names
 - [x] Fig2 2sigma or 3sigma? ==> 3sigma ==> fix fig
-- [ ] Fig2supp (Anton) Heatmap/Contrast for comparisons
+- [ ] **Fig2supp (Anton) Heatmap/Contrast for comparisons**
 - [x] Fig3 remove sDI/sSC, EP
 - [x] Fig3 add Fano factor (VMR)
 - [x] Fig3supp only two cases #level=2,5 (N=300)
 - [ ] Fig3 add actual case? (move from current Fig4A?)
-- [ ] Fig4 ATAC hbox OFF noise (Sacha/Erin)
+- [ ] **Fig4 ATAC hbox OFF noise (Sacha/Erin)**
 - [x] Fig4supp add HUGO TF subfamily bDI bargraph
 - [x] Fig5supp tree w/o anatomy constraints
 - [x] Fig5supp tree with anatomy constraints in division
-- [ ] Fig5supp pan-neuronal
-- [ ] Fig5supp other examples of "intersection method" (e.g. Pvalb)
-- [ ] Fig6 peak cnts vs. length from Erin dataset?
-- [ ] Fig6 peak pattern examples (bigwig)
+- [x] Fig5supp pan-neuronal (in figs/tree/ folder)
+- [x] Fig5supp other examples of "intersection method" (e.g. Pvalb) (in figs/tree/ folder)
+- [x] Fig6 peak cnts vs. length from Erin dataset
+- [ ] **Fig6 peak pattern examples (bigwig) !**
 - [x] Fig6A x axis indicate length
 - [x] Fig6B-D adjust x axis range
 - [x] add Fig7 cartoon (blush up?)
 - [ ] [Analysis] calculate family-wise reproducible gene %
 - [ ] [Analysis] separability of long-gene set vs. whole genes vs. non-long-genes
 - [ ] [Analysis] other species gene length distribution (average length?)
+- [ ] Fig6 add peak cnts vs length plot?
+- [ ] Supplemental tables listing current name and metadata
+- 
 
-
+ 
 ## Writing
 - [ ] Figure Legends (Ken)
 - [ ] Methods (Ken)
@@ -45,6 +48,13 @@
 - [ ] Tree (Sacha)
 - [ ] Long Gene 
 - [ ] Discussion
+
+## Additional?
+- High DI, high SC gene expression pattern heatmap in Fig4?
+
+## Notes
+- refer to David Stern Nature paper as an demonstration of mobile element changing neuronal gene expression.
+- chimp/human insertion comparison paper (when discussing long gene elongation)
 
 ## Misc
 - [ ] Fix Acknowledgements
