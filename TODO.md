@@ -33,7 +33,7 @@
 - [ ] [Analysis] other species gene length distribution (average length?)
 - [ ] Fig6 add peak cnts vs length plot?
 - [ ] Supplemental tables listing current name and metadata
-- [ ] Gene length distributions of various species
+- [ ] Gene length distributions of various species (Anton)
 
  
 ## Writing
