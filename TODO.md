@@ -33,7 +33,8 @@
 - [ ] [Analysis] other species gene length distribution (average length?)
 - [ ] Fig6 add peak cnts vs length plot?
 - [ ] Supplemental tables listing current name and metadata
-- [ ] Gene length distributions of various species (Anton)
+- [ ] **Gene length distributions of various species (Anton)**
+- [ ] An example of gene elongation (Grin1: https://www.ncbi.nlm.nih.gov/homologene/7187)
 
  
 ## Writing
