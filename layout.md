@@ -37,3 +37,4 @@ figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraint
 figures/supp-panneuronal/supp-panneuronal.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
+figures/supp-glen-hist/supp-glen-hist.png
