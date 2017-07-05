@@ -5,7 +5,7 @@
 - Fig4. DI/SC analysis, enriched families, Homeobox
 - Fig5. TF Code, Tree
 - Fig6. Long Gene
-- Fig7. Cartoon
+- Fig7. Evolutionary implications
 
 ## TODO
 - [x] sample and group labels?
