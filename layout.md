@@ -15,7 +15,7 @@ The_transcriptional_diversity_of_neuronal__.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 Results-long_gene.tex
 figures/Fig-longgenes/Fig-longgenes-v3.png
-figures/Fig-modelai/Fig-modelai.png
+figures/Fig-modelai/Fig-model.png
 Discussion.tex
 Materials and Methods.tex
 Acknowledgements.tex
