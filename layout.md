@@ -29,6 +29,7 @@ figures/Fig-DISC/Fig-DISC.png
 textbf_Figure_4_Supplement_1__.tex
 figures/supp-DISC/supp-DISC.png
 Results-code.tex
+textbf_Figure_5_and_2__.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 Supp-DISC.tex
 Supp-tree.tex
