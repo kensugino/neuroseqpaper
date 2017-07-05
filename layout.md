@@ -15,6 +15,7 @@ figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 textbf_Figure_2_Supplement_2__.tex
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
+textbf_Figure_2_Supplement_4__.tex
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
