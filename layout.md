@@ -3,10 +3,10 @@ Authors_and_Affiliations.tex
 TODO.md
 Introduction.tex
 Results-dataset.tex
+figures/Fig1v13bSupp/supp-dataset.png
 figures/Fig1v13/Fig-dataset.png
 Results-NNLS.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
-figures/Fig1v13bSupp/supp-dataset.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
 Results-DISC.tex
