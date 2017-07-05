@@ -6,6 +6,7 @@ Results-dataset.tex
 figures/Fig1v13/Fig-dataset.png
 Results-NNLS.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
+figures/Fig1v13bSupp/supp-dataset.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
 Results-DISC.tex
@@ -21,7 +22,6 @@ Materials and Methods.tex
 Acknowledgements.tex
 Competing Interests.tex
 Supp-dataset.tex
-figures/Fig1v13bSupp/supp-dataset.png
 Supp-NNLS.tex
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
