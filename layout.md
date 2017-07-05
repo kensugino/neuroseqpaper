@@ -21,7 +21,6 @@ figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 textbf_Figure_3_and_2__.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
-Supp-metrics.tex
 figures/Fig-DI-vs-MI/supp-metrics-v3.png
 Results-DISC.tex
 textbf_Figure_4_and_1__.tex
@@ -47,5 +46,6 @@ figures/Fig-modelai/Fig-model-v2.png
 figures/supp-glen-hist/supp-glen-hist.png
 Discussion.tex
 Materials and Methods.tex
+Supp-metrics.tex
 Acknowledgements.tex
 Competing Interests.tex
