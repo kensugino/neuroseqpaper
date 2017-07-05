@@ -54,6 +54,7 @@
 - [ ] Tree (Sacha)
 - [ ] Long Gene 
 - [ ] Discussion
+- [ ] At the end of writing fix references (or cite as you write using "cite" button in the toolbar)
 
 ## Additional?
 - High DI, high SC gene expression pattern heatmap in Fig4?
