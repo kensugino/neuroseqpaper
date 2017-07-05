@@ -19,6 +19,7 @@ figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
+figures/supp-DISC/supp-DISC.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/supp-metrics-v3.png
 Results-DISC.tex
@@ -26,7 +27,6 @@ figures/Fig-DISC/Fig-DISC.png
 Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 Supp-DISC.tex
-figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
