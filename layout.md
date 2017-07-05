@@ -5,40 +5,40 @@ Introduction.tex
 Results-dataset.tex
 textbf_Figure_1_and_1__1.tex
 figures/Fig1v13/Fig-dataset.png
+Supp-dataset.tex
 textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-dataset.png
 Results-NNLS.tex
 textbf_Figure_2_and_4__.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
+Supp-NNLS.tex
 textbf_Figure_2_Supplement_1__.tex
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
+figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
+figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
+figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
+Supp-metrics.tex
+figures/Fig-DI-vs-MI/supp-metrics-v3.png
 Results-DISC.tex
 figures/Fig-DISC/Fig-DISC.png
 Results-code.tex
 The_transcriptional_diversity_of_neuronal__.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
-Results-long_gene.tex
-figures/Fig-longgenes/Fig-longgenes-v3.png
-figures/Fig-modelai/Fig-model.png
-Discussion.tex
-Materials and Methods.tex
-Acknowledgements.tex
-Competing Interests.tex
-Supp-dataset.tex
-Supp-NNLS.tex
-figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
-figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
-figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
-Supp-metrics.tex
-figures/Fig-DI-vs-MI/supp-metrics-v3.png
 Supp-DISC.tex
 figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-panneuronal/supp-panneuronal.png
+Results-long_gene.tex
+figures/Fig-longgenes/Fig-longgenes-v3.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
 figures/supp-glen-hist/supp-glen-hist.png
+figures/Fig-modelai/Fig-model.png
+Discussion.tex
+Materials and Methods.tex
+Acknowledgements.tex
+Competing Interests.tex
