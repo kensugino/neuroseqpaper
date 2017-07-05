@@ -34,5 +34,6 @@ figures/supp-DISC/supp-DISC.png
 Supp-tree.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
+figures/supp-panneuronal/supp-panneuronal.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
