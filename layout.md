@@ -24,6 +24,7 @@ figures/Fig-metrics-v2/Fig-metrics-v4.png
 Supp-metrics.tex
 figures/Fig-DI-vs-MI/supp-metrics-v3.png
 Results-DISC.tex
+textbf_Figure_4_and_1__.tex
 figures/Fig-DISC/Fig-DISC.png
 figures/supp-DISC/supp-DISC.png
 Results-code.tex
