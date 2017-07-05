@@ -35,6 +35,7 @@ Supp-tree.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 textbf_Figure_5_Supplement_2__.tex
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
+Fig5Supp3.tex
 figures/supp-panneuronal/supp-panneuronal.png
 Results-long_gene.tex
 textbf_Figure_6_and_1__.tex
