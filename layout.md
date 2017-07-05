@@ -10,6 +10,7 @@ figures/Fig1v13bSupp/supp-dataset.png
 Results-NNLS.tex
 textbf_Figure_2_and_5__.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
+textbf_Figure_2_Supplement_1__.tex
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v4.png
