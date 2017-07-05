@@ -37,6 +37,7 @@ textbf_Figure_5_Supplement_2__.tex
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-panneuronal/supp-panneuronal.png
 Results-long_gene.tex
+textbf_Figure_6_and_1__.tex
 figures/Fig-longgenes/Fig-longgenes-v3.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
