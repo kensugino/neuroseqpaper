@@ -17,7 +17,8 @@
 - [x] Fig3 add Fano factor (VMR)
 - [x] Fig3supp only two cases #level=2,5 (N=300)
 - [x] Fig3 add actual case? (move from current Fig4A?)
-- [ ] Fig3 feature table
+- [ ] Fig3 add actual gene example?
+- [x] Fig3 feature table
 - [x] **Fig4 ATAC hbox OFF noise (Sacha/Erin)**
 - [x] Fig4supp add HUGO TF subfamily bDI bargraph
 - [x] Fig5supp tree w/o anatomy constraints
@@ -32,12 +33,14 @@
 - [ ] [Analysis] calculate family-wise reproducible gene %
 - [ ] [Analysis] separability of long-gene set vs. whole genes vs. non-long-genes
 - [x] **Gene length distributions of various species (Anton)**
-- [ ] Fig7 gene length box plot
+- [x] Fig7 gene length box plot
 - [x] An example of gene elongation (Grin1: https://www.ncbi.nlm.nih.gov/homologene/7187) (Anton gtf)
-- [ ] Fig7 example gene elongation
+- [x] Fig7 example gene elongation
 - [x] Fig6 add peak cnts vs length plot? (in supp)
 - [ ] Supplemental tables listing current name and metadata
-
+- [ ] Fig4. MI check family size (intersected with expressed?)
+- [ ] Single cell DISC enrichment analysis?
+- 
  
 ## Writing
 - [ ] Figure Legends (Ken)
