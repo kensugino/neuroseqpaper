@@ -31,10 +31,10 @@ figures/supp-DISC/supp-DISC.png
 Results-code.tex
 textbf_Figure_5_and_2__.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
+figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 Supp-tree.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 textbf_Figure_5_Supplement_2__.tex
-figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 Fig5Supp3.tex
 figures/supp-panneuronal/supp-panneuronal.png
 Results-long_gene.tex
