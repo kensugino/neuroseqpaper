@@ -16,8 +16,11 @@ Total RNA was extracted (Picopure KIT0204; ThermoFisher). Either 1$\mu l$ of $10
 Adaptor sequences (AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC for Illumina sequencing and CTTTGTGTTTGA for NuGEN SPIA) were removed from de-multiplexed FASTQ data using cutadapt v1.7.1 (http://dx.doi.org/10.14806/ej.17.1.200) with parameters “--overlap=7 --minimum-length=30”. Abundant sequences (ribosomal RNA, mitochondrial, Illumina phiX and low complexity sequences) were detected using bowtie2 (Langmead 2012) v2.1.0 with default parameters. The remaining reads were mapped to UCSC mm10 genome using STAR (Dobin 2012) v2.4.0i with parameters “--chimSegmentMin 15 --outFilterMismatchNmax 3”. 
 Reads uniquely mapped to exons were quantified using featureCounts (Subread v...).
 For 3' exon quantification, we used bedtools (Quinlan 2010) to extract the exonic sequence up to 1000bp upstream of each TES.
-DI and SC were calculated as described in Fig. 3. q-values and log fold changes were calculated in limma following voom transform (Law 2014).
 ANOVA was calculated ...
+DI and SC were calculated as described in Fig. 3. q-values and log fold changes were calculated in limma following voom transform (Law 2014).
+We provide a package called DISC to calculate these metrics, avail at ...
+
+\subsection{Comparison with singl-cell RNA-seq}
 For single-cell RNA-seq comparisons, we downloaded count data and metadata from Tasic et al. (GS...) and Zeisel et al. (...), and decomposed the isocortex cell types profiled in our bulk RNA-seq data set using the single-cell cluster profiles from these studies. To minimize differences between studies, we used quantile normalization on the TPM values.
 NNLS coefficients for each cluster profile were obtained using a log-weighted error model (?)... Genes were selected based on intersection top ... ANOVA genes for all 3 studies.
 Random forest classification was performed ...
