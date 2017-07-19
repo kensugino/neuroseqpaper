@@ -4,7 +4,7 @@ begin_itemize_item_Transcriptional_diversity__.tex
 Introduction.tex
 Results-dataset.tex
 textbf_Figure_1_and_1__1.tex
-figures/Fig1v13/Fig-dataset.png
+figures/Fig1v13/Fig-datasetV2.png
 textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-dataset.png
 Results-NNLS.tex
