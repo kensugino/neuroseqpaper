@@ -7,6 +7,7 @@ textbf_Figure_1_and_2__.tex
 figures/Fig1v13/Fig-datasetV2.png
 textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
+figures/supp-datasetV2b1/supp-datasetV2b1.png
 Results-NNLS.tex
 textbf_Figure_2_and_4__.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
