@@ -6,6 +6,7 @@ Results-dataset.tex
 textbf_Figure_1_and_2__.tex
 figures/Fig1v13/Fig-datasetV2.png
 textbf_A_Schema_of_pipeline__.tex
+textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
 figures/supp-datasetV2b1/supp-datasetV2b1.png
 Results-NNLS.tex
