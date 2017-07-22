@@ -1,6 +1,5 @@
 Authors_and_Affiliations.tex
 Abstract.tex
-begin_itemize_item_Transcriptional_diversity__.tex
 Introduction.tex
 Results-dataset.tex
 textbf_Figure_1_and_2__.tex
