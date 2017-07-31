@@ -6,6 +6,7 @@ textbf_Figure_1_and_2__.tex
 figures/Fig1v13/Fig-datasetV2.png
 textbf_A_Schema_of_pipeline__.tex
 textbf_Figure_1_Supplement_1__.tex
+figures/supp-panneuronal/supp-panneuronal.png
 figures/Fig1v13bSupp/supp-datasetV2a.png
 textbf_Figure_1_Supplement_2__.tex
 figures/supp-datasetV2b1/supp-datasetV2b1.png
@@ -27,7 +28,7 @@ textbf_Figure_3_Supplement_1__.tex
 figures/Fig-DI-vs-MI/supp-metrics-v4.png
 Results-DISC.tex
 textbf_Figure_4_and_1__.tex
-figures/Fig-DISC/Fig-DISC-v3.png
+figures/Fig-DISC/Fig-DISC.png
 textbf_Figure_4_Supplement_1__.tex
 figures/supp-DISC/supp-DISCv2.png
 Results-code.tex
@@ -38,7 +39,6 @@ figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraint
 textbf_Figure_5_Supplement_2__.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Fig5Supp3.tex
-figures/supp-panneuronal/supp-panneuronal.png
 Results-long_gene.tex
 textbf_Figure_6_and_1__.tex
 figures/Fig-longgenes/Fig-longgenes-v3.png
