@@ -25,10 +25,10 @@ Results-metrics.tex
 textbf_Figure_3_and_1__.tex
 figures/Fig-metrics-v2/Fig-metrics-v5.png
 textbf_Figure_3_Supplement_1__.tex
-figures/supp-DISC/supp-DISCv2.png
 figures/Fig-DI-vs-MI/supp-metrics-v4.png
 Results-DISC.tex
 textbf_Figure_4_and_1__.tex
+figures/supp-DISC/supp-DISCv2.png
 figures/Fig-DISC/Fig-DISC.png
 textbf_Figure_4_Supplement_1__.tex
 Results-code.tex
