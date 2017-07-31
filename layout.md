@@ -8,8 +8,8 @@ textbf_A_Schema_of_pipeline__.tex
 textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
 textbf_Figure_1_Supplement_2__.tex
-figures/supp-panneuronal/supp-panneuronal.png
 figures/supp-datasetV2b1/supp-datasetV2b1.png
+figures/supp-panneuronal/supp-panneuronal.png
 Results-NNLS.tex
 textbf_Figure_2_and_4__.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
