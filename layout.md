@@ -30,7 +30,7 @@ textbf_Figure_3_Supplement_2__.tex
 figures/supp-DISC/supp-DISCv2.png
 Results-DISC.tex
 textbf_Figure_4_and_1__.tex
-figures/Fig-DISC/Fig-DISC.png
+figures/Fig-DISC/Fig-DISC-v4.png
 textbf_Figure_4_Supplement_1__.tex
 Results-code.tex
 textbf_Figure_5_and_2__.tex
