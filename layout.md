@@ -44,7 +44,7 @@ Results-long_gene.tex
 textbf_Figure_6_and_1__.tex
 figures/Fig-longgenes/Fig-longgenes-v4.png
 Supp-LongGene.tex
-figures/supp-longgenes/supp-longgenes.png
+figures/supp-longgenes/supp-longgenes-v2.png
 Results-hypothesis.tex
 textbf_Figure_7__.tex
 figures/Fig-modelai/Fig-model.png
