@@ -8,7 +8,7 @@ textbf_The_NeuroSeq_dataset_textbf__.tex
 textbf_Figure_1_Supplement_1__.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
 textbf_Figure_1_Supplement_2__.tex
-figures/supp-datasetV2b1/supp-datasetV2b1.png
+figures/supp-datasetV2b1/supp-dataset-v3.png
 figures/supp-panneuronal/supp-panneuronal.png
 Results-NNLS.tex
 textbf_Figure_2_and_4__.tex
