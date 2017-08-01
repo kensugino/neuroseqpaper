@@ -49,7 +49,7 @@ Results-hypothesis.tex
 textbf_Figure_7__.tex
 figures/Fig-modelai/Fig-model-v3.png
 textbf_Figure_7_Supplement_1__.tex
-figures/supp-glen-hist/Fig7_sup_by_row_noalphacol.png
+figures/supp-glen-hist/supp-model.png
 Discussion.tex
 Materials and Methods.tex
 Supp-metrics.tex
