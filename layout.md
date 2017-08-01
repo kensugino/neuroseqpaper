@@ -19,7 +19,6 @@ figures/Fig-DI-vs-MI/supp-metrics-v4b.png
 figures/supp-DISC/supp-DISCv2.png
 Results-DISC.tex
 figures/Fig-DISC/Fig-DISC-v4.png
-textbf_Figure_4_Supplement_1__.tex
 Results-code.tex
 textbf_Figure_5_and_2__.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
