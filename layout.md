@@ -22,7 +22,6 @@ figures/Fig-DISC/Fig-DISC-v4.png
 Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
-textbf_Figure_5_Supplement_2__.tex
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Fig5Supp3.tex
 Results-long_gene.tex
