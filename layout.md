@@ -23,7 +23,6 @@ Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
-Fig5Supp3.tex
 Results-long_gene.tex
 textbf_Figure_6_and_1__.tex
 figures/Fig-longgenes/Fig-longgenes-v4.png
