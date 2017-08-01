@@ -2,7 +2,6 @@ Authors_and_Affiliations.tex
 Abstract.tex
 Introduction.tex
 figures/Fig1v13/Fig-dataset-v3.png
-textbf_The_NeuroSeq_dataset_textbf__.tex
 Results-dataset.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
 figures/supp-datasetV2b1/supp-dataset-v3.png
