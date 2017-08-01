@@ -9,7 +9,6 @@ figures/supp-datasetV2b1/supp-dataset-v3.png
 figures/supp-panneuronal/supp-panneuronal.png
 Results-NNLS.tex
 figures/Fig-NNLS/Fig-NNLS-v2.png
-Supp-NNLS.tex
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 textbf_Figure_2_Supplement_2__.tex
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
