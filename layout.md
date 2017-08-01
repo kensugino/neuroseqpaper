@@ -42,7 +42,7 @@ figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Fig5Supp3.tex
 Results-long_gene.tex
 textbf_Figure_6_and_1__.tex
-figures/Fig-longgenes/Fig-longgenes-v3.png
+figures/Fig-longgenes/Fig-longgenes-v4.png
 Supp-LongGene.tex
 figures/supp-longgenes/supp-longgenes.png
 Results-hypothesis.tex
