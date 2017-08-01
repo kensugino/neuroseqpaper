@@ -5,7 +5,6 @@ Results-dataset.tex
 figures/Fig1v13/Fig-dataset-v3.png
 textbf_The_NeuroSeq_dataset_textbf__.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
-textbf_Figure_1_Supplement_2__.tex
 figures/supp-datasetV2b1/supp-dataset-v3.png
 figures/supp-panneuronal/supp-panneuronal.png
 Results-NNLS.tex
