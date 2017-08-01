@@ -16,7 +16,6 @@ figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v5.png
 figures/Fig-DI-vs-MI/supp-metrics-v4b.png
-textbf_Figure_3_Supplement_2__.tex
 figures/supp-DISC/supp-DISCv2.png
 Results-DISC.tex
 textbf_Figure_4_and_1__.tex
