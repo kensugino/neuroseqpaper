@@ -28,7 +28,6 @@ figures/Fig-longgenes/Fig-longgenes-v4.png
 figures/supp-longgenes/supp-longgenes-v2.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-model-v3.png
-textbf_Figure_7_Supplement_1__.tex
 figures/supp-glen-hist/supp-model.png
 Discussion.tex
 Materials and Methods.tex
