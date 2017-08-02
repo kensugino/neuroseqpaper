@@ -17,7 +17,7 @@ figures/Fig-metrics-v2/Fig-metrics-v5.png
 figures/Fig-DI-vs-MI/supp-metrics-v4b.png
 figures/supp-DISC/supp-DISCv2.png
 Results-DISC.tex
-figures/Fig-DISC/Fig-DISC-v4.png
+figures/Fig-DISC/Fig-DISC-v5.png
 Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
