@@ -7,7 +7,7 @@ figures/Fig1v13bSupp/supp-datasetV2a.png
 figures/supp-datasetV2b1/supp-dataset-v3.png
 figures/supp-panneuronal/supp-panneuronal.png
 Results-NNLS.tex
-figures/Fig-NNLS/Fig-NNLS-v3.png
+figures/Fig-NNLS/Fig-NNLS-v4.png
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
 figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
@@ -16,13 +16,13 @@ Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v5.png
 figures/Fig-DI-vs-MI/supp-metrics-v4.png
 Results-DISC.tex
-figures/Fig-DISC/Fig-DISC-v5.png
+figures/Fig-DISC/Fig-DISC-v6.png
 Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Results-long_gene.tex
-figures/Fig-longgenes/Fig-longgenes-v5.png
+figures/Fig-longgenes/Fig-longgenes-v6.png
 figures/supp-longgenes/supp-longgenes-v3.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-model-v3.png
