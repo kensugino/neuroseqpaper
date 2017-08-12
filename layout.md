@@ -24,7 +24,7 @@ figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraint
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Results-long_gene.tex
 figures/Fig-longgenes/Fig-longgenes-v6.png
-figures/supp-longgenes/supp-longgenes-v3.png
+figures/supp-longgenes/supp-longgenes-v4.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-model-v3.png
 figures/supp-glen-hist/supp-model.png
