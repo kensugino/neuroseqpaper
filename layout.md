@@ -16,7 +16,7 @@ Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v6.png
 figures/Fig-DI-vs-MI/supp-metrics-v4.png
 Results-DISC.tex
-figures/Fig-DISC/Fig-DISC-v7.png
+figures/Fig-DISC/Fig-DISC-v8.png
 figures/supp-homeobox-v3/supp-homeobox-v3.png
 figures/supp-homeobox-v2/supp-homeobox-v3.png
 Results-code.tex
