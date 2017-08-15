@@ -14,7 +14,7 @@ figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v6.png
-figures/Fig-DI-vs-MI/supp-metrics-v4.png
+figures/Fig-DI-vs-MI/supp-metrics-v5.png
 Results-DISC.tex
 figures/Fig-DISC/Fig-DISC-v8.png
 figures/supp-homeobox-v3/supp-homeobox-v3.png
