@@ -27,7 +27,7 @@ figures/Fig-longgenes/Fig-longgenes-v7.png
 figures/supp-longgenes/supp-longgenes-v4.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-TE.svg
-figures/supp-glen-hist/supp-model-v2.png
+figures/supp-glen-hist/supp-TE.png
 Discussion.tex
 Materials and Methods.tex
 Supp-metrics.tex
