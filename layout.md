@@ -10,7 +10,6 @@ Results-NNLS.tex
 figures/Fig-NNLS/Fig-NNLS-v6.png
 figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
-figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v6.png
