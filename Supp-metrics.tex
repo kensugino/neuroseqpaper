@@ -25,7 +25,7 @@ H(E) &= -\sum_{i}p(i)\log p(i) \\
      &= -\sum_{i}\frac{n_i}{N_s} \log n_i + \sum_{i}\frac{n_i}{N_s}\log N_s \\
      &= - \frac{1}{N_s}\sum_{i}n_i\log n_i + \log N_s
 \end{align}
-Thus, it takes maximum when all $n_i$'s are 0 or 1, which corresponds to the case where one expression level corresponds to one cell type, making all cell types distinguishable by the expression levels. This is when the discretization levels are larger than number of samples. When the number of discretization levels ($N_e$) is smaller than the number of samples ($N_s$), H(E) takes the maximum value of $\log N_e$ when all the samples are distributed equally to each bin.
+Thus, it takes maximum when all $n_i$'s are 0 or 1, which corresponds to the case where one expression level corresponds to one cell type, making all cell types distinguishable by the expression levels. This is when the discretization levels are larger than number of samples. When the number of discretization levels ($N_e$) is smaller than the number of samples ($N_s$), $H(E)$ takes the maximum value of $\log N_e$ when all the samples are distributed equally to each bin.
 
 To explore the relationship between $H(E)$ and DI, the $\log n_i$ in the first term is replaced (approximated) by $(n_i-1)$ (first two terms in the Taylor expansion of $\log n_i$ around $n_i=1$.):
 \begin{align}
