@@ -18,7 +18,6 @@ Results-homeobox.tex
 figures/Fig-DISC/Fig-DISC-v8.png
 figures/supp-homeobox-v3/supp-homeobox-v4.png
 Results-code2.tex
-Results-code.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
