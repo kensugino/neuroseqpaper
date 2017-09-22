@@ -29,6 +29,7 @@ figures/Fig-modelai/Fig-TE-v2.png
 figures/supp-glen-hist/supp-TE-v2.png
 Discussion.tex
 Materials and Methods.tex
+Materials and Method2.tex
 Supp-metrics.tex
 Acknowledgements.tex
 Competing Interests.tex
