@@ -2,21 +2,24 @@
 A set of TFs were constructed by combining 4 curated TF lists: genes annotated in 1) PANTHER \citep{Thomas_2003} PC00218 (transcription factor), 2) Riken Transcription Factor Database \citep{Kanamori_2004}, 3) HUGO \citep{Gray_2014} families with TF functions and 4) Gene Ontology \citep{Ashburner_2000} GO:0006355 (regulation of transcription). Genes appearing reproducibly in these list (i.e. in more than 1 list) were used as TF. 
 
 The TF tree is constructed recursively using following algorithm:
-input: 
+\begin{algorithm}[H]
 
 
+\end{algorithm}
+
+Anatomical regions are defined in a hierarchical manner. 
 
 \subsection{Inserted segments}
-
+The multiz alignment downloaded from UCSC genome browser \citep{Kent_2002} is used to calculate inserted segments in human or mouse. By comparing closely related species (human vs. chimp, mouse vs. rat), candidate segments inserted into humans(or mouse) are extracted. By using another closely related species as a common ancestor (gorilla, guinea pig respectively for human/chimp and mouse/rat), segments absent in chimp and gorilla (or absent in rat/guinea pig) are called insertion in human (or mouse), and segments absent in chimp but present in gorilla (or absent in rat but present in guinea pig) are called deletion in chimp (or rat). 
 
 \subsection{TE fitting}
-
+For fitting expression level (rank) by repeat score, regularized version of linear regression, Ridge regression, implemented in Python scikit-learn library \citep{scikit-learn} is used.
 
 \subsection{Tissue data}
 In addition to cell type-specific data obtained in this study, we analyzed publicly available RNASeq and DNase-seq data using tissue samples. Information on these samples are described in Supplementary Table 3.
 
 \subsection{Annotations}
-For reference annotations we used Gencode.vM13 (Harrow 2012) downloaded from http://www.gencodegenes.org/, NCBI RefSeq (Pruitt 2013) and UCSC known genes both downloaded from the UCSC genome browser.
+For reference annotations we used Gencode.vM13 \citep{Harrow_2012} downloaded from http://www.gencodegenes.org/, NCBI RefSeq \citep{Pruitt_2013} downloaded from the UCSC genome browser.
 
 \subsection{Anatomical Region Abbreviations}
 Region abbreviations: AOBmi, Accessory olfactory bulb, mitral layer; MOBgl, Main olfactory bulb, glomerular layer; PIR, Piriform area; COAp, Cortical amygdalar area, posterior part; AOBgr, Accessory olfactory bulb, granular layer; MOBgr, Main olfactory bulb, granular layer; MOBmi, Main olfactory bulb, mitral layer; VISp, Primary visual area; AI, Agranular insular area; MOp5, Primary motor area, layer5; VISp6a, Primary visual area, layer 6a; SSp, Primary somatosensory area; SSs, Supplemental somatosensory area; ECT, Ectorhinal area; ORBm, Orbital area, medial part; RSPv, Retrosplenial area, ventral part; ACB, Nucleus accumbens; OT, Olfactory tubercle; CEAm, Central amygdalar nucleus, medial part; CEAl, Central amygdalar nucleus, lateral part; islm, Major island of Calleja; isl, Islands of Calleja; CP, Caudoputamen; CA3, Hippocampus field CA3; DG, Hippocampus dentate gyrus; CA1, Hippocampus field CA1; CA1sp, Hippocampus field CA1, pyramidal layer; SUBd-sp, Subiculum, dorsal part, pyramidal layer; IG, Induseum griseum; CA, Hippocampus Ammon’s horn; PVT, Paraventricular nucleus of the thalamus; CL, Central lateral nucleus of the thalamus; AMd, Anteromedial nucleus, dorsal part; LGd, Dorsal part of the lateral geniculate complex; PCN, Paracentral nucleus; AV, Anteroventral nucleus of thalamus; VPM, Ventral posteromedial nucleus of the thalamus; AD, Anterodorsal nucleus; RT, Reticular nucleus of the thalamus; MM, Medial mammillary nucleus; PVH, Paraventricular hypothalamic nucleus; PVHp, Paraventricular hypothalamic nucleus, parvicellular division; SO, Supraoptic nucleus; DMHp, Dorsomedial nucleus of the hypothalamus, posterior part; ARH, Arcuate hypothalamic nucleus; PVHd, Paraventricular hypothalamic nucleus, descending division; SCH, Suprachiasmatic nucleus; LHA, Lateral hypothalamic area; SFO, Subfornical organ; VTA, Ventral tegmental area; SNc, Substantia nigra, compact part; SCm, Superior colliculus, motor related; IC, Ingerior colliculus; DR, Dorsal nucleus raphe; PAG, Periaqueductal gray; PBl, Parabrachial nucleus, lateral division; PG, Pontine gray; LC, Locus ceruleus; CSm, Superior central nucleus raphe, medial part; AP, Area postrema; NTS, Nucleus of the solitary tract; MV, Medial vestibular nucleus; NTSge, Nucleus of the solitary tract, gelatinous part; DCO, Dorsal cochlear nucleus; NTSm, Nucleus of the solitary tract, medial part; IO, Inferior olivary complex; VII, Facial motor nucleus; DMX, Dorsal motor nucleus of the vagus nerve; RPA, Nucleus raphe pallidus; PRP, Nucleus prepositus; CUL4,5mo, Cerebellum lobules IV-V, molecular layer; CUL4,5pu, Cerebellum lobules IV-V, Purkinje layer; PYRpu, Cerebellum Pyramus (VIII), Purkinje layer; CUL4,5gr, Cerebellum lobules IV-V, granular layer; MOE, main olfactory epithelium; VNO, vemoronasal organ.
