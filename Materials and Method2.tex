@@ -1,5 +1,5 @@
 \subsection{TF Tree}
-A set of TFs were constructed by combining 4 curated TF lists: genes annotated in 1) PANTHER \citep{Thomas_2003} PC00218 (transcription factor), 2) Riken Transcription Factor Database \citep{Kanamori_2004}, 3) HUGO \citep{Gray_2014} families with TF functions and 4) Gene Ontology \citep{Ashburner_2000} GO:0006355 (regulation of transcription). Genes appearing reproducibly in these list (i.e. in more than 1 list) were used as TF. 
+A set of TFs were constructed by combining 4 curated TF lists: genes annotated in 1) PANTHER \citep{Thomas_2003} PC00218 (transcription factor), 2) Riken Transcription Factor Database \citep{Kanamori_2004}, 3) HUGO \citep{Gray_2014} families with TF functions and 4) Gene Ontology \citep{Ashburner_2000} GO:0006355 (regulation of transcription). Genes appearing reproducibly in these list (i.e. in more than 1 list) were used as TFs. Anatomical regions used as constraints are defined in a hierarchical manner. 
 
 The TF tree is constructed recursively using following algorithm:
 \begin{verbatim}
@@ -29,23 +29,15 @@ function bisect(list of samples):
     12. call bisect on ON group samples
     13. call bisect on OFF group samples
 \end{verbatim}
-%\begin{algorithm}
-%\begin{algorithmic}
-%\STATE 
-
-%\end{algorithmic}
-%\end{algorithm}
-
-Anatomical regions are defined in a hierarchical manner. 
 
 \subsection{Inserted segments}
-The multiz alignment downloaded from UCSC genome browser \citep{Kent_2002} is used to calculate inserted segments in human or mouse. By comparing closely related species (human vs. chimp, mouse vs. rat), candidate segments inserted into humans(or mouse) are extracted. By using another closely related species as a common ancestor (gorilla, guinea pig respectively for human/chimp and mouse/rat), segments absent in chimp and gorilla (or absent in rat/guinea pig) are called insertion in human (or mouse), and segments absent in chimp but present in gorilla (or absent in rat but present in guinea pig) are called deletion in chimp (or rat). 
+The multiz alignments downloaded from UCSC genome browser \citep{Kent_2002} was used to calculate inserted segments in human or mouse. By comparing closely related species (human vs. chimp or mouse vs. rat), candidate segments inserted into human (or mouse) are extracted. By using another closely related species as a common ancestor (gorilla, guinea pig respectively for human/chimp and mouse/rat), segments absent in chimp and gorilla (or absent in rat/guinea pig) are called insertion in human (or mouse), and segments absent in chimp but present in gorilla (or absent in rat but present in guinea pig) are called deletion in chimp (or rat). 
 
 \subsection{TE fitting}
-For fitting expression level (rank) by repeat score, regularized version of linear regression, Ridge regression, implemented in Python scikit-learn library \citep{scikit-learn} is used.
+For fitting expression level (rank) by repeat score, regularized version of linear regression, Ridge regression, implemented in Python scikit-learn library \citep{scikit-learn} was used.
 
 \subsection{Tissue data}
-In addition to cell type-specific data obtained in this study, we analyzed publicly available RNASeq and DNase-seq data using tissue samples. Information on these samples are described in Supplementary Table 3.
+In addition to cell type-specific data obtained in this study, we analyzed publicly available RNA-seq and DNase-seq data using tissue samples. Information on these samples are described in Supplementary Table 4.
 
 \subsection{Annotations}
 For reference annotations we used Gencode.vM13 \citep{Harrow_2012} downloaded from http://www.gencodegenes.org/, NCBI RefSeq \citep{Pruitt_2013} downloaded from the UCSC genome browser.
