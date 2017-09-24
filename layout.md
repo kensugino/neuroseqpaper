@@ -14,6 +14,7 @@ figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
 figures/Fig-metrics-v2/Fig-metrics-v6.png
 figures/Fig-DI-vs-MI/supp-metrics-v6.svg
+Supp-metrics.tex
 Results-homeobox.tex
 figures/Fig-DISC/Fig-DISC-v8.png
 figures/supp-homeobox-v3/supp-homeobox-v4.png
@@ -30,6 +31,5 @@ figures/supp-glen-hist/supp-TE-v2.png
 Discussion.tex
 Materials and Methods.tex
 Materials and Method2.tex
-Supp-metrics.tex
 Acknowledgements.tex
 Competing Interests.tex
