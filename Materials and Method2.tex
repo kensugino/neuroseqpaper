@@ -7,12 +7,12 @@ preparation:
     0. calculate bDIs for all subset of samples defined by anatomical regions
 function bisect(list of samples):
     1. if the list of samples consists only from one cell type, exit
-    2. find appropriate level in the hierarchy of anatomical regions
-    3. calculate bDI,SC within this group of samples for all TFs
-    4. if there is no TF with bDI>0 then exit
-    5. penalize bDIs (from 3.) with bDIs of containing anatomical regions (from 0.)
+    2. calculate bDI,SC within this group of samples for all TFs
+    3. if there is no TF with bDI>0 then exit
+    4. find appropriate level in the hierarchy of anatomical regions
+    5. penalize bDIs (from 2.) with bDIs of containing anatomical regions (from 0.)
     6. sort TFs by penalized bDI and SC in descending order
-    7. set candidate as TFs with penalized bDI>0.2, if there is none take top 5
+    7. set candidates as TFs with penalized bDI>0.2, if there is none take top 5
     8. for each candidate, calculate divisions of samples according to expression level
        - at sample level, assign ON/OFF using FPKM=3 as threshold
        - at cell type level, assign ON/OFF according to dominant ON/OFF of samples
