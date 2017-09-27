@@ -12,8 +12,8 @@ figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
 figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
 figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
 Results-metrics.tex
-figures/Fig-metrics-v2/Fig-metrics-v6.png
-figures/Fig-DI-vs-MI/supp-metrics-v6.svg
+figures/Fig-metrics-v2/Fig-metrics-v7.png
+figures/Fig-DI-vs-MI/supp-metrics-v7.png
 Supp-metrics.tex
 Results-homeobox.tex
 figures/Fig-DISC/Fig-DISC-v8.png
