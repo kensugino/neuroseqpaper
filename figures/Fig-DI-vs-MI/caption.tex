@@ -1,7 +1,7 @@
 \textbf{Features of DI for expression and splicing}
 
-\textbf{(A) DI and MI are highly correlated.} The relationship between DI, calculated without considering replicates%(q-value part was dropped)\%
+\textbf{(A)} (Upper) An example of simulated binary and graded expression patterns with added noise. X-axis indicates sample/groups. (Lower) Various average metrics calculated from the simulated expression patterns (100 individual simulations; error bars are standard deviations). Values are normalized within each metric across binary expression group or graded expression group. 
+\textbf{(B)} Summary of each metric's correlation with Mutual Information and SNR: check mark--correlated, X--uncorrelated, triangle--partially correlated.
+\textbf{(C) DI and MI are highly correlated.} The relationship between DI, calculated without considering replicates%(q-value part was dropped)\%
 , and MI with expression levels discretized into 2 levels (left) and 5 levels (right). Although increasing the number of discrete expression levels decreases the degree of correlation, they remain monotonically and closely related.
-\textbf{(B)} Definition of generalized PSI (percent spliced in). For a splice donor, a generalized form of PSI (donor branch probability) can be defined as the joint distribution of transition probabilities from the donor to each acceptor. Acceptor branch probability can be defined conversely. 
-\textbf{(C)} Histogram of all donor branch probabilities from alternatively spliced sites. The distribution is highly bimodal, indicating that alternative splicing is "all or none" for each site in each cell type (though  often varying between cell types). 
-\textbf{(D)} The number of cell types distinguished by a gene's splice variants (sDN; see Methods for calculation). The number, rather than the ratio (DI) is calculated since the denominator of DI (total number of cell types potentially distinguished) varies for each gene. This is because genes not expressed in a cell type can contribute to distinctions based on expression, but not to those based on splicing. PANTHER gene families enriched in the top 500 DN genes are shown. Red lines indicate the $p=10^{-3}$ threshold used to judge significance.
+
