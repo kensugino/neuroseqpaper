@@ -26,7 +26,7 @@ Results-long_gene.tex
 figures/Fig-longgenes/Fig-longgenes-v8.png
 figures/supp-longgenes/supp-longgenes-v6.png
 Results-hypothesis.tex
-figures/Fig-modelai/Fig-TE-v2.png
+figures/Fig-modelai/Fig-TE-v3.png
 figures/supp-glen-hist/supp-TE-v2.png
 Discussion.tex
 Materials and Methods.tex
