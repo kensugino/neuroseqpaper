@@ -17,7 +17,7 @@ figures/Fig-metrics-v2/Fig-metrics-v7.png
 figures/Fig-DI-vs-MI/supp-metrics-v7.png
 Supp-metrics.tex
 Results-homeobox.tex
-figures/Fig-DISC/Fig-DISC-v8.png
+figures/Fig-DISC/Fig-DISC-v8.svg
 figures/supp-homeobox-v3/supp-homeobox-v4.png
 Results-code2.tex
 figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c-v3.png
