@@ -24,7 +24,7 @@ figures/2017-06-27-tree8c-using-c6-TF3-v6-newdivision-eth0.2/Fig-tree-8c-v3.png
 figures/supp-tree-8-with-divisionconstraints/supp-tree-8-with-divisionconstraints.png
 figures/supp-tree-10-no-constraints/supp-tree-10-no-constraints.png
 Results-long_gene.tex
-figures/Fig-longgenes/Fig-longgenes-v8.png
+figures/Fig-longgenes/Fig-longgenes-v8.svg
 figures/supp-longgenes/supp-longgenes-v6.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-TE-v4.png
