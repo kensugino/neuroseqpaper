@@ -6,7 +6,7 @@ Results-dataset2.tex
 figures/Fig1v13bSupp/supp-datasetV2a.png
 figures/supp-datasetV2b1/supp-dataset-v3.png
 Results-long_gene.tex
-figures/Fig-longgenes/Fig-longgenes-v8.png
+figures/Fig-longgenes-v8/Fig-longgenes-v8.png
 figures/supp-longgenes/supp-longgenes-v7.png
 Results-hypothesis.tex
 figures/Fig-modelai/Fig-TE-v4.png
