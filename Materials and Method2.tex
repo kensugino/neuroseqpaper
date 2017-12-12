@@ -1,34 +1,34 @@
-\subsection{TF Tree}
-The set of mouse TFs was constructed by combining 4 curated TF lists: genes annotated in 1) PANTHER \citep{Thomas_2003} PC00218 (transcription factor), 2) Riken Transcription Factor Database \citep{Kanamori_2004}, 3) HUGO \citep{Gray_2014} families with TF functions and 4) Gene Ontology \citep{Ashburner_2000} GO:0006355 (regulation of transcription). Genes appearing reproducibly in these list (i.e. in more than 1 list) were used as TFs. Anatomical regions used as constraints are defined in a hierarchical manner (see Supplementary Table 5). 
+%\subsection{TF Tree}
+%The set of mouse TFs was constructed by combining 4 curated TF lists: genes annotated in 1) PANTHER \citep{Thomas_2003} PC00218 (transcription factor), 2) Riken Transcription Factor Database \citep{Kanamori_2004}, 3) HUGO \citep{Gray_2014} families with TF functions and 4) Gene Ontology \citep{Ashburner_2000} GO:0006355 (regulation of transcription). Genes appearing reproducibly in these list (i.e. in more than 1 list) were used as TFs. Anatomical regions used as constraints are defined in a hierarchical manner (see Supplementary Table 5). 
 
-The TF tree is constructed recursively using the following algorithm:
-\begin{verbatim}
-preparation:
-    0. calculate bDIs for all subsets of samples defined by anatomical regions
-function bisect(list of samples):
-    1. if the list of samples consists of only one cell type, exit
-    2. calculate bDI,SC within this group of samples for all TFs
-    3. if there is no TF with bDI>0,  exit
-    4. find the appropriate level in the hierarchy of anatomical regions
-    5. penalize bDIs (from 2.) with bDIs of containing anatomical regions (from 0.)
-    6. sort TFs by their penalized bDI and SC in descending order
-    7. set candidates as TFs with penalized bDI>0.2, if there are none, take the top 5
-    8. for each candidate, calculate divisions of samples according to expression level
-       - at sample level, assign ON/OFF using FPKM=3 as threshold
-       - at cell type level, assign ON/OFF according to dominant ON/OFF of samples
-       - divide all cell types into ON or OFF groups
-       - optionally constrain division to anatomical boundary
-    9. if there is no division, exit
-    10. if there is more than one division then
-       - calculate "division strength" for all divisions:
-           - a0 = mean number of binary distinctions of all genes between ON and OFF groups
-           - a1 = mean number of binary distinctions of all genes within ON or OFF groups
-           - division strength = a0/a1
-       - then choose the division with the highest division strength
-    11. output ON/OFF groups and corresponding TF(s) for the chosen division
-    12. call bisect on ON group samples
-    13. call bisect on OFF group samples
-\end{verbatim}
+%The TF tree is constructed recursively using the following algorithm:
+%\begin{verbatim}
+%preparation:
+%    0. calculate bDIs for all subsets of samples defined by anatomical regions
+%function bisect(list of samples):
+%    1. if the list of samples consists of only one cell type, exit
+%    2. calculate bDI,SC within this group of samples for all TFs
+%    3. if there is no TF with bDI>0,  exit
+%    4. find the appropriate level in the hierarchy of anatomical regions
+%    5. penalize bDIs (from 2.) with bDIs of containing anatomical regions (from 0.)
+%    6. sort TFs by their penalized bDI and SC in descending order
+%    7. set candidates as TFs with penalized bDI>0.2, if there are none, take the top 5
+%    8. for each candidate, calculate divisions of samples according to expression level
+%       - at sample level, assign ON/OFF using FPKM=3 as threshold
+%       - at cell type level, assign ON/OFF according to dominant ON/OFF of samples
+%       - divide all cell types into ON or OFF groups
+%       - optionally constrain division to anatomical boundary
+%    9. if there is no division, exit
+%    10. if there is more than one division then
+%       - calculate "division strength" for all divisions:
+%           - a0 = mean number of binary distinctions of all genes between ON and OFF groups
+%           - a1 = mean number of binary distinctions of all genes within ON or OFF groups
+%           - division strength = a0/a1
+%       - then choose the division with the highest division strength
+%    11. output ON/OFF groups and corresponding TF(s) for the chosen division
+%    12. call bisect on ON group samples
+%    13. call bisect on OFF group samples
+%\end{verbatim}
 
 \subsection{Inserted segments}
 The multiz alignments downloaded from the UCSC genome browser \citep{Kent_2002} was used to calculate inserted segments in human or mouse. By comparing closely related species (human vs. chimp or mouse vs. rat), candidate segments inserted into human (or mouse) are extracted. By using another closely related species as a common ancestor (gorilla, guinea pig respectively for human/chimp and mouse/rat), segments absent in chimp and gorilla (or absent in rat/guinea pig) are called insertion in human (or mouse), and segments absent in chimp but present in gorilla (or absent in rat but present in guinea pig) are called deletion in chimp (or rat). 
