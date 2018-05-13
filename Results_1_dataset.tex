@@ -1,0 +1,81 @@
+\section{Results}
+
+\subsection{A dataset of cell type-specific neuronal transcriptomes}
+To begin exploring the diversity in the nervous system, we collected transcriptomes from 166 types of neurons and 15 types of non-neuronal genetically/retrogradely labeled cell populations (Table 1; Figure 1 Supplement 1; Supplementary Table 1,2). Data from 9 previously published hippocampal cell types \citep{Cembrowski_2016}, 2 hypothalamic cell types \citep{Henry_2015}, and 2 neocortical cell types \citep{Shima_2016}, harvested and processed in the same way as other samples, were also included in our analyses. Each neuron type collected represents a group of fluorescently labeled cells dissociated and sorted from a specific micro-dissected region of the mouse brain or other tissue. In most cases, the fluorescent label was genetically expressed in a mouse driver line, but retrograde labeling was used in some cases. The pipeline for cell type-specific transcriptome collection is depicted in Figure 1A (see Methods for additional details). Mouse lines were first characterized by generating a high resolution atlas of reporter expression (Figure 1B), then regions containing labeled cells with uniform morphology were chosen for sorting and RNA-seq. This effort constitutes the largest and most diverse single collection of genetically identified cell types profiled by RNA-seq. The processed data, including anatomical atlases, RNASeq coverage, and TPM are available at http://neuroseq.janelia.org (Figure 1C). 
+
+To determine the sensitivity of our transcriptional profiling, we used ERCC spike-ins. Amplified RNA libraries had an average sensitivity (50\% detection) of 23 copy*kbp of ERCC spike-ins across all libraries (Figure 1D). Since manually sorted samples had 132$\pm$16 cells (mean$\pm$ sem, all following as well), this indicates our pipeline had the sensitivity to detect a single copy of a transcript per cell 80\% of the time. In total we sequenced 2.3 trillion bp in 565 libraries. Total reads per library was 41$\pm$0.5M reads (Figure 1 Supplement 2A top). Using the aligner STAR \citep{Dobin_2012}, 68.9$\pm$0.37\% of the reads mapped uniquely to the mm10 genome, 2.8$\pm$0.06\% mapped to multiple loci, 5.6$\pm$0.14\% did not map to mm10, and 22.7$\pm$0.36\% contained abundant sequences such as ribosomal RNA or mitochondrial sequences (Figure 1 Supplement 2A bottom) and 0.06\%$\pm$ 0.004\% contained short reads (less than 30bp after removing adaptor sequences). Sequenced library data were deposited in NCBI GEO (accession number:GSE79238). This high sensitivity allowed for deep transcriptional profiling in our diverse set of cell types.
+
+To assess the extent of contamination in the dataset, we checked expression levels of marker genes for several non-neuronal cell types (Figure 1 Supplement 2B). As previously shown \citep{Okaty_2011}, manual sorting produced, in general, extremely clean data.
+
+ To demonstrate the utility of the dataset, made possible by its broad sampling of cell types, we extracted pan-neuronal genes (genes expressed commonly in all neuronal cell types but expressed at lower levels or not at all in non-neuronal cell types; Figure 1 Supplement 3). Broad sampling is essential to avoid false positives \citep{Zhang_2014,Mo_2015,Stefanakis_2015}. Extracted pan-neuronal genes contain well known genes such as \textit{Eno2} (Enolase2), which is the neuronal form of Enolase required for the Krebs cycle, \textit{Slc2a3} (chloride transporter) required for inhibitory transmission, and \textit{Atp1a3} (ATPase Na+/K+ transporting subunit alpha 3) which belongs to the complex responsible for maintaining electrochemical gradients across the membrane, as well as genes not previously known to be pan-neuronal, such as \textit{2900011O08Rik} (now called Migration Inhibitory Protein;\cite{Zhang_2014a}). Synaptic genes are often differentially expressed among neurons, but some included in this pan-neuronal list such as \textit{Syn1, Stx1b, Stxbp1, Sv2a}, and \textit{Vamp2} appear to be common components required in all neurons, highlighting essential parts of these complexes. Thus, this pan-neuronal gene list reveals components necessary for any neuron. The dataset should also be useful for many other applications, especially those requiring comparisons across a wide variety of neuronal cell types. 
+
+\begin{table}[p]
+%%\begin{fullwidth}
+\caption{\label{tab:table1}Summary of Profiled Samples.}
+% Use "S" column identifier to align on decimal point 
+%\begin{tabular}{S l l l r}
+%%for_pdf%%\resizebox{1\columnwidth}{!}{
+\begin{tabular}{l l l l l l}%{ | l | l | l | l | l | l | }
+\toprule
+	 & region/type & transmitter & \#groups & subregions & \#samples \\ 
+\midrule
+	CNS neurons & Olfactory (OLF) & glu & 10 & AOBmi,MOBgl,PIR,AOB,COAp & 30 \\ 
+	 &  & GABA & 4 & AOBgr,MOBgr,MOBmi & 11 \\ 
+	 & Isocortex & glu & 22 & VISp,AI,MOp5,MO,VISp6a,SSp,SSs,ECT,ORBm,RSPv & 68 \\ 
+	 &  & GABA & 3 & Isocortex,SSp (Sst+, Pvalb+) & 7 \\ 
+	 &  & glu,GABA & 1 & RSPv & 3 \\ 
+	 & Subplate (CTXsp) & glu & 1 & CLA & 4 \\ 
+	 & Hippocampus (HPF) & glu & 24 & CA1,CA1sp,CA2,CA3,CA3sp,DG,DG-sg,SUBd-sp,IG & 65 \\ 
+	 &  & GABA & 4 & CA3,CA,CA1 (Sst+, Pvalb+) & 12 \\ 
+	 & Striatum (STR) & GABA & 12 & ACB,OT,CEAm,CEAl,islm,isl,CP & 33 \\ 
+	 & Pallidum (PAL) & GABA & 1 & BST & 4 \\ 
+	 & Thalamus (TH) & glu & 11 & PVT,CL,AMd,LGd,PCN,AV,VPM,AD & 29 \\ 
+	 & Hypothalamus (HY) & glu & 11 & LHA,MM,PVHd,SO,DMHp,PVH,PVHp & 36 \\ 
+	 &  & GABA & 4 & ARH,MPN,SCH & 15 \\ 
+	 &  & glu,GABA & 2 & SFO & 3 \\ 
+	 & Midbrain (MB) & DA & 2 & SNc,VTA & 5 \\ 
+	 &  & glu & 2 & SCm,IC & 6 \\ 
+	 &  & 5HT & 2 & DR & 10 \\ 
+	 &  & GABA & 1 & PAG & 4 \\ 
+	 &  & glu,DA & 1 & VTA & 3 \\ 
+	 & Pons (P) & glu & 7 & PBl,PG & 22 \\ 
+	 &  & NE & 1 & LC & 2 \\ 
+	 &  & 5HT & 2 & CSm & 7 \\ 
+	 & Medulla (MY) & GABA & 7 & AP,NTS,MV,NTSge,DCO & 18 \\ 
+	 &  & glu & 6 & NTSm,IO,ECU,LRNm & 20 \\ 
+	 &  & ACh & 2 & DMX,VII & 6 \\ 
+	 &  & 5HT & 1 & RPA & 3 \\ 
+	 &  & GABA,5HT & 1 & RPA & 4 \\ 
+	 &  & glu,GABA & 1 & PRP & 3 \\ 
+	 & Cerebellum (CB) & GABA & 10 & CUL4, 5mo,CUL4, 5pu,CUL4, 5gr,PYRpu & 25 \\ 
+	 &  & glu & 4 & CUL4, 5gr,NODgr & 10 \\ 
+	 & Retina & glu & 5 & ganglion cells (MTN,LGN,SC projecting) & 14 \\ 
+	 & Spinal Cord & glu & 1 & Lumbar (L1-L5) dorsal part & 3 \\ 
+	 &  & GABA & 4 & Lumbar (L1-L5) dorsal part, central part & 12 \\ 
+	PNS & Jugular & glu & 2 & (TrpV1+) & 7 \\ 
+	 & Dorsal root ganglion (DRG) & glu & 2 & (TrpV1+, Pvalb+) & 5 \\ 
+	 & Olfactory sensory neurons (OE) & glu & 4 & MOE,VNO & 9 \\ 
+\midrule     
+	non-neuron & Microglia &  & 2 & MOp5(Isocortex),UVU(CB) (Cx3cr1+) & 6 \\ 
+	 & Astrocytes &  & 1 & Isocortex (GFAP+) & 4 \\ 
+	 & Ependyma &  & 1 & Choroid Plexus & 2 \\ 
+	 & Ependyma &  & 2 & Lateral ventricle (Rarres2+) & 6 \\ 
+	 & Epithelial  &  & 1 & Blood vessel (Isocortex) (Apod+,Bgn+) & 3 \\ 
+	 & Epithelial &  & 1 & olfactory epithelium & 2 \\ 
+	 & Progenitor &  & 1 & DG (POMC+) & 3 \\ 
+	 & Pituitary &  & 1 & (POMC+) & 3 \\ 
+\midrule     
+	non brain & Pancreas &  & 2 & Acinar cell, beta cell & 7 \\ 
+	 & Myofiber &  & 2 & Extensor digitorum longus muscle & 7 \\ 
+	 & Brown adipose cell&  & 1 & Brown adipose cell from neck.  & 4 \\ 
+\midrule  
+	 &  & total & 194 &  & 565 \\ 
+\bottomrule
+\end{tabular}
+%%for_pdf%%}
+%\end{fullwidth}
+\end{table}
+
+
+
+
