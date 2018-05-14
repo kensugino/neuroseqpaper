@@ -8,7 +8,6 @@ Results_1_dataset.tex
 Results_2_DISC.tex
 figures/Fig3/Fig3.png
 Results_3_homeobox.tex
-figures/Fig4/Fig4.svg
 Results_4_longgenes.tex
 #Results-long_gene.tex
 #figures/Fig-longgenes-v8/Fig-longgenes-v8.png
