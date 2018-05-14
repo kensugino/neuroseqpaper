@@ -7,7 +7,7 @@ Results_1_dataset.tex
 #figures/supp-datasetV2b1/supp-dataset-v3.png
 figures/Fig2/Fig2.svg
 Results_2_DISC.tex
-figures/Fig3/Fig3.svg
+figures/Fig3/Fig3.png
 Results_3_homeobox.tex
 figures/Fig4/Fig4.svg
 Results_4_longgenes.tex
