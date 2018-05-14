@@ -10,6 +10,7 @@ Results_2_DISC.tex
 figures/Fig3/Fig3.svg
 Results_3_homeobox.tex
 figures/Fig4/Fig4.svg
+Results_4_longgenes.tex
 #Results-long_gene.tex
 #figures/Fig-longgenes-v8/Fig-longgenes-v8.png
 #figures/supp-longgenes/supp-longgenes-v7.png
