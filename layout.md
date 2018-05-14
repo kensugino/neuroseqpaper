@@ -13,4 +13,5 @@ Results_5_elongation.tex
 figures/Fig5/Fig5.png
 Discussion.tex
 Acknowledgements.tex
+Materials_and_Methods.tex
 Supplements.tex
