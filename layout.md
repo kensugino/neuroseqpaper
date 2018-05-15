@@ -16,3 +16,12 @@ Acknowledgements.tex
 Competing_Interests.tex
 Materials_and_Methods.tex
 Supplements.tex
+figures/Fig1v13bSupp/supp-datasetV2a.png
+figures/supp-datasetV2b1/supp-dataset-v3.png
+figures/supp-panneuronal/supp-panneuronal.png
+figures/supp-NNLS-controls-tasic-cre/supp-NNLS-controls-tasic-cre.png
+figures/supp-NNLS-randomforest/supp-NNLS-randomforest-v2.png
+figures/supp-NNLS-2-othercomparisons/supp-NNLS-2-othercomparisons.png
+figures/supp-NNLS-self-comparisons/supp-NNLS-self-comparisons-v2.png
+figures/Fig-metrics-v2/Fig-metrics-v6.png
+figures/Fig-DI-vs-MI/supp-metrics-v5.png
