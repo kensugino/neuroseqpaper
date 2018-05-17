@@ -16,7 +16,7 @@ Acknowledgements.tex
 Competing_Interests.tex
 Materials_and_Methods.tex
 Supplements.tex
-supps/Fig1S1/supp-dataset-V2a.png
+supps/Fig1S1/supp-datasetV2a.png
 supps/Fig1S2/supp-dataset-v3.png
 supps/Fig1S3/supp-panneuronal.png
 supps/Fig1S4/supp-Fig-NNLS-v8.png
