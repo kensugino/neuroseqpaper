@@ -1,0 +1,28 @@
+﻿@article{RN2,
+   author = {Chong, J. A. and Tapia-Ramirez, J. and Kim, S. and Toledo-Aral, J. J. and Zheng, Y. and Boutros, M. C. and Altshuller, Y. M. and Frohman, M. A. and Kraner, S. D. and Mandel, G.},
+   title = {REST: a mammalian silencer protein that restricts sodium channel gene expression to neurons},
+   journal = {Cell},
+   volume = {80},
+   number = {6},
+   pages = {949-57},
+   ISSN = {0092-8674 (Print)
+0092-8674 (Linking)},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/7697725},
+   year = {1995},
+   type = {Journal Article}
+}
+
+@article{RN1,
+   author = {Schoenherr, C. J. and Anderson, D. J.},
+   title = {The neuron-restrictive silencer factor (NRSF): a coordinate repressor of multiple neuron-specific genes},
+   journal = {Science},
+   volume = {267},
+   number = {5202},
+   pages = {1360-3},
+   ISSN = {0036-8075 (Print)
+0036-8075 (Linking)},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/7871435},
+   year = {1995},
+   type = {Journal Article}
+}
+
