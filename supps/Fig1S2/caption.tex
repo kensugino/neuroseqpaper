@@ -1,14 +1,2 @@
-%%width=0.8\columnwidth
-\textbf{Pan-neuronal genes.} 
-Genes expressed in all neuronal cell types, but not (or at much lower levels) in non-neurons within the dataset. Heat-map shows log expression levels and the color at the right side indicates fold-change of the expression level between neurons and non-neurons. Criteria for extracting these genes are listed in the Methods.
-
-% original pdf: 2017-07-03-pan-neuro-idxc.pdf
-% see 2017-07-02-intersection-principle.ipynb
-% idxc = idxa&idx5 = idx1,idx4,idx5,idx6,idx7
-% idx1: #(neuron < th0(cov 0.05)) = 0
-% idx4: avg neuron > (cov 2) & min neuron > (cov 0.5)
-% idx5: avg neuron > other max & min neuron > avg other
-% idx6: avg neuron > 4 * avg other
-% idx7: avg neuron > other avg + 2*sigma other & avg neuron - 2*sigma neuron > avg other
-
-
+\textbf{Quality Control measures.} \textbf{(A)} (Top) Total reads for each of the libraries. Samples are color coded by region and transmitter, as shown in Figure 1 Supplement 1. (Bottom) Categories of reads in each library: unmapped: reads that did not map to the mm10 genome including chimeric and back-spliced reads; short: reads less than 30bp in length after removing adaptor sequences; non-unique: reads mapping to multiple locations; abundant: reads containing ribosomal RNA polyA, polyC and phiX sequences, and unique: uniquely mapped reads. For further analyses, abundant, short and unmapped reads were not used.
+\textbf{(B)} Contaminating transcripts from non-neuronal cell types. Samples with significant expression of these transcripts (at right) include tissue samples and non-neuronal samples. Each row is normalized by the maximum value. 
