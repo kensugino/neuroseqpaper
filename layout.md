@@ -10,7 +10,6 @@ figures/Fig3/Fig3.png
 Results_4_longgenes.tex
 figures/Fig4/Fig4.png
 Results_5_elongation.tex
-figures/Fig5/Fig5.svg
 Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
