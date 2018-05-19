@@ -18,11 +18,11 @@ Materials_and_Methods.tex
 Supplements.tex
 supps/Fig1S1/supp-datasetV2a.png
 supps/Fig1S2/supp-dataset-v3.png
-supps/Fig1S3/supp-panneuronal.png
 supps/Fig1S4/supp-Fig-NNLS-v8.png
 supps/Fig1S5/supp-NNLS-controls-tasic-cre.png
 supps/Fig1S6/supp-NNLS-randomforest-v2.png
 supps/Fig1S7/supp-NNLS-self-comparisons-v2.png
+supps/Fig1S3/supp-panneuronal.png
 supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
 supps/Fig4S2/supp-Fig4S2.png
