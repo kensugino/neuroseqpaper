@@ -24,4 +24,4 @@ supps/Fig1S5/supp-NNLS-controls-tasic-cre.png
 supps/Fig1S6/supp-NNLS-randomforest-v2.png
 supps/Fig1S7/supp-NNLS-self-comparisons-v2.png
 supps/Fig2S1/supp-metrics-v7.png
-supps/supp-
+supps/supp-metrics.tex
