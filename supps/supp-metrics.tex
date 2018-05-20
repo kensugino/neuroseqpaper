@@ -3,8 +3,8 @@ Here we explore more detailed relationship between DI (differentiation index) an
 
 Assume there are $e$ distinguishable expression levels of a gene and there are $n_1,...,n_e$ number of cell type groups in each level. Then, Gini-Simpson index (GSI) is:
 \begin{align}
-GSI &= 1 - \sum_{i}^{e}{p_{i}^2} \\
-    &= 1 - \frac{\sum_{i}^{e}{n_i(n_i-1)}}{N(N-1)} \\
+GSI &= 1 - \sum_{i=1}^{e}{p_{i}^2} \\
+    &= 1 - \frac{\sum_{i=1}^{e}{n_i(n_i-1)}}{N(N-1)} \\
 \end{align}
 Where $N=\sum_{i}^{e}{N_i}$ is the total number of groups and $p_{i}$ is the probability of randomly selected element being in expression level $i$, so $p_{i}^2=n_i(n_i-1)/N(N-1)$, for sampling without replacement. 
 
