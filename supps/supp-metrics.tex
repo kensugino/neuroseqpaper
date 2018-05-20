@@ -6,7 +6,7 @@ Assume there are $e$ distinguishable expression levels of a gene and there are $
 GSI &= 1 - \sum_{i=1}^{e}{p_{i}^2} \\
     &= 1 - \frac{\sum_{i=1}^{e}{n_i(n_i-1)}}{N(N-1)} \\
 \end{align}
-Where $N=\sum_{i}^{e}{N_i}$ is the total number of groups and $p_{i}$ is the probability of randomly selected element being in expression level $i$, so $p_{i}^2=n_i(n_i-1)/N(N-1)$, for sampling without replacement. 
+Where $N=\sum_{i=1}^{e}{N_i}$ is the total number of groups and $p_{i}$ is the probability of randomly selected element being in expression level $i$, so $p_{i}^2=n_i(n_i-1)/N(N-1)$, for sampling without replacement. 
 
 Since $n_i(n_i-1)/N(N-1)=(n_i(n_i-1)/2)/(N(N-1)/2)$, this term is the fraction of pairs in level $i$. So the sum of these are the total fraction of indistinguishable pairs and one minus this sum equals to the fraction of distinguishable pairs which is DI. Thus, DI is equivalent to Gini-Simpson index calculated against distinguishable levels of expression.
 
