@@ -1,7 +1,7 @@
 \textbf{Relationship between DI and Gini-Simpson index or MI} 
 Here we explore more detailed relationship between DI (differentiation index) and Gini-Simpson index (GSI) or MI (mutual information). DI of a gene is equivalent to Gini-Simpson index against distinguishable levels of expression of the gene and it is also closely related to mutual information between (discretized) expression levels and cell type labels. 
 
-Assume there are S distinguishable expression levels of a gene and there are $n_1,...,n_e$ number of cell type groups in each level. Then, Gini-Simpson index (GSI) is:
+Assume there are $e$ distinguishable expression levels of a gene and there are $n_1,...,n_e$ number of cell type groups in each level. Then, Gini-Simpson index (GSI) is:
 \begin{align}
 GSI &= 1 - \sum_{i}^{e}{p_{i}^2} \\
     &= 1 - \frac{\sum_{i}^{e}{n_i(n_i-1)}}{N(N-1)} \\
