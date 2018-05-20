@@ -28,3 +28,4 @@ supps/supp-metrics.tex
 supps/Fig4S1/supp-Fig4S1.png
 supps/Fig4S2/supp-Fig4S2.png
 supps/Fig5S1/supp-Fig5.png
+supps/Fig5S2/supp-Fig5S2.png
