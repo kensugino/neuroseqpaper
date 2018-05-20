@@ -25,5 +25,6 @@ supps/Fig1S7/supp-NNLS-self-comparisons-v2.png
 supps/Fig1S3/supp-panneuronal.png
 supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
+supps/Fig4S1/supp-Fig4S1.png
 supps/Fig4S2/supp-Fig4S2.png
 supps/Fig5S1/supp-Fig5.png
