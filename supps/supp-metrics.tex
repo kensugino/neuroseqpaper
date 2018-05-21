@@ -16,7 +16,7 @@ p(i,j) &= \frac{n_{ij}}{N_{s}} \\
 p(i) &= \frac{\sum_{j}{n_{ij}}}{N_{s}} = \frac{n_i}{N_s} \\
 p(j) &= \frac{\sum_{i}{n_{ij}}}{N_{s}} = \frac{n_j}{N_s}\\
 \end{align}
-Where $n_i = \sum_{j}{n_{ij}}$ and $n_j=\sum_{i}n_{ij}$. $n_j$ is number of replicates in cell type $j$. The mutual information between expression level (E) and samples (S) is:
+Where $n_i = \sum_{j}{n_{ij}}$ and $n_j=\sum_{i}n_{ij}$. $n_i$ is the number of samples in level $i$ and $n_j$ is the number of replicates in cell type $j$. The mutual information between expression level (E) and samples (S) is:
 \begin{align}
 I(E;S) &= \sum_{i,j}{p(i,j)\log\frac{p(i,j)}{p(i)p(j)}} \\
        &= \sum_{i,j}{p(i,j)\log\frac{p(i,j)}{p(j)}}-\sum_{i,j}p(i,j)\log{p(i)}  \\
