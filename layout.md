@@ -17,6 +17,7 @@ supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
 Results_3_homeobox.tex
 figures/Fig3/Fig3.png
+supps/Fig3S1/supp-Fig3S1.png
 Results_4_longgenes.tex
 figures/Fig4/Fig4.png
 supps/Fig4S1/supp-Fig4S1.png
