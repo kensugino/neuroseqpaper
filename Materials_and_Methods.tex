@@ -26,7 +26,7 @@ Pan-neuronal genes are extracted as satisfying the following conditions: 1) mean
 
 \subsection{DI/SC/DN calculation}
 To calculate DI, the following criteria were used to assign a "1" or "0" to each element in the difference matrix (DM): log fold change $>$ 2 and q-value $<$0.05. Q-values were calculated using the limma package including the voom method \citep{Law_2014}. To adjust the power to be similar across cell types, two replicates (the most recent two) are used for all cell types with more than two replicates. We have tried the same calculations with 3 replicates (using a fewer number of cell types) and obtained similar results (data not shown).
-We also calculated DI and SC across four single-cell datasets: For \cite{Zeisel_2015} and \cite{Tasic_2016}, we used log fold change $>$ 1 and q-value $<$0.05 calculated using limma/voom method. For \cite{Saunders_2018} and \cite{Zeisel_2018}, only cluster average expression was available, and log fold change $>$ 1 was defined as a criterion for differential expression.
+We also calculated DI and SC across four single-cell datasets: For \cite{Zeisel_2015} and \cite{Tasic_2016}, we used log fold change $>$ 1 and q-value $<$0.05 calculated using limma/voom method for differential gene expression. For \cite{Saunders_2018} and \cite{Zeisel_2018}, only cluster average expression was available, and log fold change $>$ 1 was defined as a criterion for differential expression.
 
 
 %To calculate binary DI (bDI), the following DM criteria were used: expression levels of all the replicates in one of the cell types in the pair $<$ 1FPKM and expression levels of all the replicates in the other cell type in the pair $>$ 15FPKM, in addition to q-value $<$0.05. 
