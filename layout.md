@@ -7,12 +7,11 @@ supps/Fig1S1/supp-datasetV2a.png
 supps/Fig1S2/supp-dataset-v3.png
 supps/Fig1S3/supp-panneuronal.png
 Results_2_DISC.tex
-figures/Fig2e/Fig2e.png
-supps/Fig2eS1/supp-Fig-NNLS-v8.png
-supps/Fig2eS2/supp-NNLS-controls-tasic-cre.png
-supps/Fig2eS3/supp-NNLS-randomforest-v2.png
-supps/Fig2eS4/supp-NNLS-self-comparisons-v2.png
-supps/Fig2eS5/supp-NNLS-separability.png
+figures/Fig2e/Fig-NNLS-v8.png
+supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
+supps/Fig2eS2/supp-NNLS-randomforest-v2.png
+supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
+supps/Fig2eS4/supp-NNLS-separability.png
 supps/Fig2S1/supp-metrics-v7.png
 Results_3_homeobox.tex
 figures/Fig3e/Fig3e.png
