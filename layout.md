@@ -19,7 +19,6 @@ Results_3_homeobox.tex
 figures/Fig4e/Fig4e.png
 supps/Fig3S1/supp-Fig3S1.png
 Results_4_longgenes.tex
-Results_5_elongation.tex
 figures/Fig5e/Fig5e.png
 supps/Fig4S1/supp-Fig4S1.png
 supps/Fig4S2/supp-Fig4S2.png
