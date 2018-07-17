@@ -23,8 +23,6 @@ Results_4_longgenes.tex
 figures/Fig5e/Fig5e.png
 supps/Fig4S1/supp-Fig4S1.png
 supps/Fig4S2/supp-Fig4S2.png
-supps/Fig5S1/supp-Fig5e.png
-supps/Fig5S2/supp-Fig5S2.png
 Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
