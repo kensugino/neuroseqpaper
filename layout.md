@@ -12,7 +12,7 @@ supps/Fig2eS2/supp-NNLS-randomforest-v2.png
 supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
 supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
-figures/Fig3e/Fig3e.png
+figures/Fig3e/Fig4new-DISC.svg
 supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
 Results_3_homeobox.tex
