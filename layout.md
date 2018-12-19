@@ -16,7 +16,7 @@ figures/Fig3e/Fig4new-DISC.svg
 supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
 Results_3_homeobox.tex
-figures/Fig4e/Fig4e.png
+figures/Fig4e/Fig-5new.svg
 supps/Fig3S1/supp-Fig3S1.png
 supps/Fig4-sc-off/supp-Fig-singlecell-offnoise.png
 Results_4_longgenes.tex
