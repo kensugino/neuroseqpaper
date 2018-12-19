@@ -22,7 +22,6 @@ supps/Fig4-sc-off/supp-Fig-singlecell-offnoise.png
 Results_4_longgenes.tex
 figures/Fig5e/Fig6new-longgene-bias.svg
 supps/Fig4S1/supp-Fig4S1.png
-supps/Fig4S2/supp-Fig4S2.png
 Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
