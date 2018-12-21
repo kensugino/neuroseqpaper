@@ -12,6 +12,7 @@ supps/Fig2eS2/supp-NNLS-randomforest-v2.png
 supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
 supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
+textbf_Gene_expression_metrics_related__.tex
 figures/Fig3e/Fig4new-DISC.svg
 supps/Fig2S1/supp-metrics-v7.png
 supps/supp-metrics.tex
