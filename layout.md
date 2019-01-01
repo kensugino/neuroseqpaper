@@ -14,6 +14,7 @@ supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
 textbf_Gene_expression_metrics_related__.tex
 supps/Fig2S1/Fig 2 supp-metrics.svg
+figures/Fig2A-DISC/Fig2A-DISC.png
 figures/Fig3e/Fig4-DISC.svg
 supps/supp-metrics.tex
 Results_3_homeobox.tex
