@@ -13,8 +13,8 @@ supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
 supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
 textbf_Gene_expression_metrics_related__.tex
-figures/Fig3e/Fig4-DISC.svg
 supps/Fig2S1/Fig 2 supp-metrics.svg
+figures/Fig3e/Fig4-DISC.svg
 supps/supp-metrics.tex
 Results_3_homeobox.tex
 figures/Fig4e/Fig-5new.svg
@@ -27,4 +27,3 @@ Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
 Materials_and_Methods.tex
-
