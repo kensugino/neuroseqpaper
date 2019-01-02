@@ -6,7 +6,7 @@ figures/Fig1/Fig1.png
 supps/Fig1S1/supp-datasetV2a.png
 supps/Fig1S2/supp-dataset-v3.png
 supps/Fig1S3/supp-panneuronal.png
-figures/Fig2e-NNLS-v8/Fig2e-NNLS-v8.png
+figures/Fig2e-NNLS-v8/Fig 2-NNLS-v8.svg
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2/supp-NNLS-randomforest-v2.png
 supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
