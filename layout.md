@@ -6,16 +6,16 @@ figures/Fig1/Fig1.png
 supps/Fig1S1/supp-datasetV2a.png
 supps/Fig1S2/supp-dataset-v3.png
 supps/Fig1S3/supp-panneuronal.png
-figures/Fig2e-NNLS-v8/Fig2-NNLS-v8b.png
+figures/Fig2e-NNLS-v8/Fig2-NNLS-v8c.png
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2/supp-NNLS-randomforest-v2.png
 supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
 supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
+figures/Fig2A-DISC/Fig2A-DISC.png
+figures/Fig3e/Fig2B-DISC.png
 textbf_Gene_expression_metrics_related__.tex
 supps/Fig2S1/Fig 2 supp-metrics.svg
-figures/Fig2A-DISC/Fig2A-DISC.png
-figures/Fig3e/Fig4-DISC.svg
 supps/supp-metrics.tex
 Results_3_homeobox.tex
 figures/Fig4e/Fig-5new.svg
