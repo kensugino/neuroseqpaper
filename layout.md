@@ -14,7 +14,7 @@ supps/Fig2eS4/supp-NNLS-separability.png
 Results_2_DISC.tex
 figures/Fig2A-DISC/Fig2A-DISC.png
 figures/Fig3e/Fig2B-DISC.png
-supps/Fig2S1/Fig 2 supp-metrics.svg
+supps/Fig2S1/Fig2-supp-metrics.png
 supps/supp-metrics.tex
 Results_3_homeobox.tex
 figures/Fig4e/Fig-5new.svg
