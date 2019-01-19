@@ -10,7 +10,7 @@ figures/Fig2e-NNLS-v8/Fig2-NNLS-v8c.png
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2/supp-NNLS-randomforest-v2.png
 supps/Fig2eS3/supp-NNLS-self-comparisons-v2.png
-supps/Fig2eS4/supp-NNLS-separability.png
+supps/Fig2eS4/Supp-for-Fig2Sep.png
 Results_2_DISC.tex
 figures/Fig2A-DISC/Fig2A-DISC.png
 figures/Fig3e/Fig2B-DISC.png
