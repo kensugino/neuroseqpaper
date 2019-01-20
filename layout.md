@@ -20,6 +20,7 @@ Results_3_homeobox.tex
 figures/Fig4e/Fig-5new.svg
 supps/Fig3S1/supp-Fig3S1.png
 supps/Fig4-sc-off/supp-Fig-singlecell-offnoise.png
+Results_splice.tex
 Results_4_longgenes.tex
 figures/Fig6e/Fig6-longgene-bias-v3.png
 supps/Fig4S1/supp-Fig4S1.png
