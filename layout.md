@@ -25,7 +25,7 @@ figures/Fig4e/Fig5-homeobox.png
 supps/Fig3S1/supp-Fig3S1.png
 supps/Fig4-sc-off/supp-Fig-singlecell-offnoise.png
 Results_splice.tex
-figures/Fig4-splice-v2/Fig6-splice-v3b.png
+figures/Fig4-splice-v2/Fig6-splice-v3b.svg
 Results_4_longgenes.tex
 figures/Fig6e/Fig7-longgene-bias-v3.png
 supps/Fig4S1/supp-Fig4S1.png
