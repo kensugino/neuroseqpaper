@@ -9,6 +9,8 @@ supps/Fig1S3/Fig1-supp-panneuronal.png
 figures/Fig2e-NNLS-v8/Fig2-NNLS-v8c.png
 supps/Fig2eS3/Fig2SuppCrossVal.svg
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
+figures/Fig2SuppNnlsTasicByZeisel/Fig2SuppNnlsTasicByZeisel.png
+figures/Fig2SuppNnlsZeiselByTasic/Fig2SuppNnlsZeiselByTasic.png
 figures/Fig2SuppPbyTZ/Fig2SuppPbyTZ.svg
 figures/Fig2SuppByPaul/Fig2SuppByPaul.svg
 supps/Fig2eS2/Fig 2 Supp Random Forest.svg
