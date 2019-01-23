@@ -17,9 +17,9 @@ supps/Fig2eS2/Fig 2 Supp Random Forest.svg
 supps/Fig2eS4/Fig2SuppSep.png
 Results_2_DISC.tex
 figures/Fig2A-DISC/Fig2A-DISC.png
-figures/Fig3e/Fig4-DISC-v2.png
 supps/Fig2S1/Fig2-supp-metrics.png
 supps/supp-metrics.tex
+figures/Fig3e/Fig4-DISC-v2.png
 Results_3_homeobox.tex
 figures/Fig4e/Fig5-homeobox.png
 supps/Fig3S1/supp-Fig3S1.png
