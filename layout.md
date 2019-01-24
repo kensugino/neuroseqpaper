@@ -23,7 +23,7 @@ figures/Fig3e/Fig4-DISC-v3.png
 Results_3_homeobox.tex
 figures/Fig4e/Fig5-homeobox.png
 supps/Fig3S1/supp-Fig3S1.png
-supps/Fig4-sc-off/Fig5-supp-singlecell-offnoise-v2.png
+supps/Fig4-sc-off/Fig5-supp-singlecell-offnoise.png
 Results_splice.tex
 figures/Fig4-splice-v2/Fig6-splice-v4.png
 Results_4_longgenes.tex
