@@ -31,6 +31,7 @@ figures/Fig6e/Fig6-splice-v4.png
 Results_4_longgenes.tex
 figures/Fig7e/Fig7-longgene-bias-v4.png
 supps/Fig7eS1/Fig7-supp-singlecell-lengthbias-v2.png
+supps/Fig7eS2/Fig7-supp-singlecell-regionbias.png
 Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
