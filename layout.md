@@ -20,6 +20,7 @@ figures/Fig2A-DISC/Fig2A-DISC.png
 supps/Fig2S1/Fig2-supp-metrics.png
 supps/supp-metrics.tex
 figures/Fig3e/Fig4-DISC-v3.png
+figures/Fig4Supp/Fig4Supp.svg
 Results_3_homeobox.tex
 figures/Fig4e/Fig5-homeobox.png
 supps/Fig3S1/supp-Fig3S1.png
