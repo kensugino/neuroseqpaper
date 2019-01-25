@@ -11,19 +11,19 @@ supps/Fig2eS3/Fig2SuppCrossVal.png
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2a/Fig2SuppNnlsTasicByZeisel.png
 supps/Fig2eS2b/Fig2SuppNnlsZeiselByTasic.png
-supps/Fig2eS2c/Fig2SuppPbyTZ.svg
-supps/Fig2eS2d/Fig2SuppByPaul.svg
-supps/Fig2eS2/Fig 2 Supp Random Forest.svg
+supps/Fig2eS2c/Fig2SuppPbyTZ.png
+supps/Fig2eS2d/Fig2SuppByPaul.png
+supps/Fig2eS2/Fig2SuppRandomForest.png
 supps/Fig2eS4/Fig2SuppSep.png
 Results_2_DISC.tex
 figures/Fig3e/Fig2A-DISC.png
 supps/Fig3S1/Fig2-supp-metrics.png
 supps/supp-metrics.tex
 figures/Fig4e/Fig4-DISC-v3.png
-figures/Fig4S1/Fig4Supp.svg
+supps/Fig4S1/Fig4Supp.png
 Results_3_homeobox.tex
 figures/Fig5e/Fig5-homeobox.png
-supps/Fig5S1/Fig5Supp.svg
+supps/Fig5S1/Fig5Supp.png
 supps/Fig5S2/supp-Fig3S1.png
 supps/Fig5S3/Fig5-supp-singlecell-offnoise.png
 Results_splice.tex
