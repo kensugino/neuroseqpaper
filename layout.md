@@ -23,6 +23,7 @@ figures/Fig3e/Fig4-DISC-v3.png
 figures/Fig4Supp/Fig4Supp.svg
 Results_3_homeobox.tex
 figures/Fig4e/Fig5-homeobox.png
+figures/Fig5Supp/Fig5Supp.svg
 supps/Fig3S1/supp-Fig3S1.png
 supps/Fig4-sc-off/Fig5-supp-singlecell-offnoise.png
 Results_splice.tex
