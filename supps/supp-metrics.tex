@@ -6,7 +6,7 @@ Assume there are $N_e$ distinguishable expression levels of a gene and there are
 GSI &= 1 - \sum_{i=1}^{N_e}{p_{i}^2} \\
     &= 1 - \frac{\sum_{i=1}^{N_e}{n_i(n_i-1)}}{N(N-1)} \\
 \end{align}
-Where $p_{i}$ is the probability of randomly selected element being in expression level $i$ and $N=\sum_{i=1}^{N_e}{n_i}$ is the total number of groups. So $p_{i}^2=n_i(n_i-1)/N(N-1)$, for sampling without replacement. 
+Where $p_{i}$ is the probability of randomly selected element being in expression level $i$ and $N=\sum_{i=1}^{N_e}{n_i}$ is the total number of groups. Second equation holds since $p_{i}^2=n_i(n_i-1)/N(N-1)$ for sampling without replacement. 
 
 Since $n_i(n_i-1)/N(N-1)=(n_i(n_i-1)/2)/(N(N-1)/2)$, this term is the fraction of pairs in level $i$. So the sum of these are the total fraction of indistinguishable pairs and one minus this sum equals to the fraction of distinguishable pairs which is DEF. Thus, DEF is equivalent to the Gini-Simpson index calculated using distinguishable levels of expression.
 
@@ -43,9 +43,9 @@ H(E) &\sim -\frac{1}{N_s}\sum_{i}n_i (n_i-1) + \log N_s \\
      &=  \frac{2}{N_s}\left\{N_s(N_s-1)/2 - \sum_{i}n_i (n_i-1)/2\right\} - (N_s-1) + \log N_s \\
      &= (N_s-1) DI - (N_s-1) + \log N_s 
 \end{align}
-Since $n_i$ is the number of samples in one expression level, $n_i(n_i-1)/2$ is the number of indistinguishable pairs in that expression level when there is no replicate. The term within the curly bracket is then the number of distinguishable pairs, leading to eq.(18). 
+Since $n_i$ is the number of samples in one expression level, $n_i(n_i-1)/2$ is the number of indistinguishable pairs in that expression level when there is no replicate. The term within the curly bracket is then the number of distinguishable pairs, leading to eq.(21). 
 
-More formally, since both $h(p) = \sum{n_i\log n_i}$ and $d(p) = \sum n_i(n_i-1) = \sum n_i^2 - N_s$ are Schur-convex functions\footnote{A Schur-convex function is a function $f:\realnumbers^k \rightarrow \realnumbers$ which satisfies $f(x) \geq f(y)$ for all $x,y$ where $x$ majorizes $y$. For $x=(x_1,x_2,...,x_k) \in \realnumbers^k where (x_1 \geq x_2 \geq ... \geq x_k) $ and $y=(y_1,y_2,...,y_k) \in \realnumbers^k where (y_1 \geq y_2 \geq ... \geq y_k)$. $x$ majorizes $y$ when $\sum_{i=1}^{k} x_i = \sum_{i=1}^{k} y_i and \sum_{i=1}^{j} x_i \geq \sum_{i=1}^{j} y_i for all j=1,...,k$. When $x$ majorizes $y$, it follows $x_i \geq y_i$ for all $i$, so it is easy to see $h(x) \geq h(y)$ and $d(x) \geq d(y)$.} on partitions of $N_s$,  $p=(n_1,n_2,...,n_k)$, when partition $p_1$ majorizes $p_2$ then, $h(p_1)\geq h(p_2)$ and $d(p_1)\geq d(p_2)$. When the partition length is 2, that is, when expression levels are discretized into only 2 levels, corresponding to ON and OFF, then, all of the partitions can be ordered with respect to majorization, therefore, $h(p)$ and $d(p)$ are order-preserved transformations of each other (Figure 2 Supplement 1C left). When the partition length is greater than 2, this relationship is not satisfied. However, they are still highly correlated to each other (Figure 2 Supplement 1C right). 
+More formally, since both $h(p) = \sum{n_i\log n_i}$ and $d(p) = \sum n_i(n_i-1) = \sum n_i^2 - N_s$ are Schur-convex functions\footnote{A Schur-convex function is a function $f:\realnumbers^k \rightarrow \realnumbers$ which satisfies $f(x) \geq f(y)$ for all $x,y$ where $x$ majorizes $y$. For $x=(x_1,x_2,...,x_k) \in \realnumbers^k where (x_1 \geq x_2 \geq ... \geq x_k) $ and $y=(y_1,y_2,...,y_k) \in \realnumbers^k where (y_1 \geq y_2 \geq ... \geq y_k)$. $x$ majorizes $y$ when $\sum_{i=1}^{k} x_i = \sum_{i=1}^{k} y_i and \sum_{i=1}^{j} x_i \geq \sum_{i=1}^{j} y_i for all j=1,...,k$. When $x$ majorizes $y$, it follows $x_i \geq y_i$ for all $i$, so it is easy to see $h(x) \geq h(y)$ and $d(x) \geq d(y)$.} on partitions of $N_s$,  $p=(n_1,n_2,...,n_k)$, when partition $p_1$ majorizes $p_2$ then, $h(p_1)\geq h(p_2)$ and $d(p_1)\geq d(p_2)$. When the partition length is 2, that is, when expression levels are discretized into only 2 levels, corresponding to ON and OFF, then, all of the partitions can be ordered with respect to majorization, therefore, $h(p)$ and $d(p)$ are order-preserved transformations of each other (Figure 3 Supplement 1C left). When the partition length is greater than 2, this relationship is not satisfied. However, they are still highly correlated to each other (Figure 3 Supplement 1C right). 
 
 When DEF is calculated from global discretization (as in the above case), the maximum number of pairs distinguishable occurs when all samples are equally distributed across bins and the number of distinguishable pairs is $\left( \frac{N_s}{N_e}\right)^2N_e(N_e-1)/2$. Therefore,
 \begin{align}
@@ -53,4 +53,4 @@ max(DEF) &= \left( \frac{N_s}{N_e}\right)^2 \frac{N_e(N_e-1)/2}{N_s(N_s-1)/2}\\
 		&= \left( 1 - \frac{1}{N_e} \right) / \left( 1 - \frac{1}{N_s} \right) \\
         &\sim 1 - \frac{1}{N_e} \quad(when\quad N_s \gg 1)
 \end{align}
-As stated above, this is also when the entropy $H(E)$ takes the maximum value of $\log_{2} N_e$ in the unit of bits. (Figure 2 Supplement 1C)
+As stated above, this is also when the entropy $H(E)$ takes the maximum value of $\log_{2} N_e$ in the unit of bits. (Figure 3 Supplement 1C)
