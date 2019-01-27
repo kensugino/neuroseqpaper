@@ -25,7 +25,7 @@ I(E;S) &= \sum_{i,j}{p(i,j)\log\frac{p(i,j)}{p(i)p(j)}} \\
        &= -\sum_{j}p(j)H(E|S=j)-\sum_{i}p(i)\log{p(i)}  \\
        &= -H(E|S)+H(E)
 \end{align}
-$H(E|S=j)$ is the entropy of expression levels in cell population j, which represents the expression noise in cell population j, and $H(E|S)$ is the average of these across all cell types. When there are no replicates, $H(E|S)$ is zero. When there are replicates, $H(E|S=j)$ represents how noisy the expression is. This may depends on expression level, and $H(E|S)$, the average of $H(E|S=j)$ may depends on expression prevalence (i.e., how widely the gene is expressed), but in any case, the first term $-H(E|S)$ represents reduction of the mutual information by noise. 
+$H(E|S=j)$ is the entropy of expression levels in cell population j, which represents the expression noise in cell population j, and $H(E|S)$ is the average of these across all cell types. When there are no replicates, $H(E|S)$ is zero. When there are replicates, $H(E|S=j)$ represents how noisy the expression is. This may depend on expression level, and $H(E|S)$, the average of $H(E|S=j)$ may depend on expression prevalence (i.e., how widely the gene is expressed), but in any case, the first term $-H(E|S)$ represents reduction of the mutual information by noise. 
 
 The second term $H(E)$ is the entropy of the marginal distribution $p(i)$ and represents the main information content of cell types encoded in expression levels. This can be rewritten using counts in the contingency table as:
 \begin{align}
