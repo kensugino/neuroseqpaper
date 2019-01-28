@@ -11,7 +11,7 @@ supps/Fig2eS3/Fig2SuppCrossVal.png
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2a/Fig2SuppNnlsTasicByZeisel.png
 supps/Fig2eS2b/Fig2SuppNnlsZeiselByTasic.png
-supps/Fig2eS2d/Fig2SuppByPaul.png
+supps/Fig2eS2d/Fig2SuppPaul.svg
 supps/Fig2eS2/Fig2SuppRandomForest.png
 supps/Fig2eS4/Fig2SuppSep.png
 Results_2_DISC.tex
