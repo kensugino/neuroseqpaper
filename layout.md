@@ -13,7 +13,7 @@ supps/Fig2eS2a/Fig2SuppNnlsTasicByZeisel.png
 supps/Fig2eS2b/Fig2SuppNnlsZeiselByTasic.png
 supps/Fig2eS2d/Fig2SuppPaul.png
 supps/Fig2eS2/Fig2SuppRandomForest.png
-supps/Fig2eS4/Fig2SuppSep.png
+supps/Fig2eS4/Fig2SuppSep-rasterized.png
 Results_2_DISC.tex
 figures/Fig3e/Fig2A-DISC.png
 supps/Fig3S1/Fig2-supp-metrics.png
