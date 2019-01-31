@@ -15,7 +15,7 @@ supps/Fig2eS2d/Fig2SuppPaul.png
 supps/Fig2eS2/Fig2SuppRandomForest.png
 supps/Fig2eS4/Fig2SuppSep-rasterized.png
 Results_2_DISC.tex
-figures/Fig3e/Fig2A-DISC.png
+figures/Fig3e/Fig3new-DISC.png
 supps/Fig3S1/Fig2-supp-metrics.png
 supps/supp-metrics.tex
 figures/Fig4e/Fig4-DISC-v3.png
