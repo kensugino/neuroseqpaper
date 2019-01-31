@@ -2,7 +2,7 @@ Authors_and_Affiliations.tex
 Abstract.tex
 Introduction2.tex
 Results_1_dataset.tex
-figures/Fig1/Fig1.png
+figures/Fig1/Fig1-dataset-v3.png
 supps/Fig1S1/Fig1-supp-color-legends.png
 supps/Fig1S2/Fig1-supp-qc.png
 supps/Fig1S3/Fig1-supp-panneuronal.png
