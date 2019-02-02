@@ -6,7 +6,7 @@ figures/Fig1/Fig1-dataset-v3.png
 supps/Fig1S1/Fig1-supp-color-legends.png
 supps/Fig1S2/Fig1-supp-qc.png
 supps/Fig1S3/Fig1-supp-panneuronal.png
-figures/Fig2e/Fig2NNLS-v8c.png
+figures/Fig2e/Fig2-NNLS-v8c.png
 supps/Fig2eS3/Fig2SuppCrossVal.png
 supps/Fig2eS1/supp-NNLS-controls-tasic-cre.png
 supps/Fig2eS2a/Fig2SuppNnlsTasicByZeisel.png
