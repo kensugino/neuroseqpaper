@@ -1,4 +1,3 @@
-Authors_and_Affiliations.tex
 Abstract.tex
 Introduction2.tex
 Results_1_dataset.tex
