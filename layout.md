@@ -34,3 +34,4 @@ Discussion.tex
 Acknowledgements.tex
 Competing_Interests.tex
 Materials_and_Methods.tex
+Supplements.tex
